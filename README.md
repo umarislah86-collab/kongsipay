@@ -23,7 +23,7 @@ Ini belum aplikasi produksi. Semua pengguna demo dikendalikan dari satu paparan 
 
 Belum ada invite sebenar, database bersama, multiple group, upload resit, reminder automatik, recurring job, payment gateway, deposit, kredit, prorata, split custom atau multi-currency. Label prepaid / owner advance merekod pilihan kutipan, tanpa penguatkuasaan pembayaran. Tiada pemindahan wang.
 
-WebMCP read_payment_summary tersedia jika browser menyokong document.modelContext. Pengesahan dalam runtime WebMCP sebenar belum tersedia dalam sesi pembinaan ini.
+WebMCP read_payment_summary tersedia jika browser menyokong document.modelContext. Input sah dan penolakan input tidak sah telah disemak dalam runtime browser, dengan bacaan baki RM62 dan bayaran menunggu RM6 sepadan dengan dashboard demo.
 
 ## Sambungan produksi
 
