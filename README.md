@@ -8,18 +8,31 @@ App pengurusan subscription bersama dalam Bahasa Melayu. Design asal dikekalkan;
 - Google Sign-In menggunakan konfigurasi web app dari `C:\Users\C5407836\paytrack\src\lib\firebase.ts`.
 - Akaun baharu didaftarkan dengan Google pada login pertama. Akaun PayTrack menggunakan UID yang sama apabila memilih akaun Google yang sama.
 - Profil lama, termasuk nama, QR dan nombor WhatsApp, dibaca tanpa ditimpa.
-- Collection lama digunakan terus: `users`, `subscriptions`, `billingCycles`, `payments`. Tiada salinan atau pemadaman rekod lama.
+- Collection lama digunakan terus: `users`, `subscriptions`, `billingCycles`, `payments`. Tiada migrasi automatik, salinan atau perubahan kepada rekod produksi semasa pembangunan. Tindakan pengguna dalam app menggunakan collections yang sama.
 - Disahkan pada 8 Oktober 2026: 7 profil, 5 subscription, 39 kitaran bil, 128 bayaran. Semua ID rekod dan kandungan cloud kekal selepas integrasi.
 - Query membership hanya memuatkan subscription yang mengandungi UID pengguna, kemudian mendengar perubahan kitaran dan bayaran secara langsung. Akaun tanpa keahlian mendapat paparan kosong.
 - Split, rotation/giliran dan hutang dipaparkan mengikut schema PayTrack; paid markers, partial payments dan isSedekah dikira tanpa menggandakan jumlah.
 
 ## Ciri tersedia
 
-Ringkasan baki sendiri dan kumpulan; pilihan semua atau satu subscription; senarai ahli; Google login/logout; pendaftaran automatik; jemputan email yang diterima selepas login email disahkan; semakan jemputan manual; subscription baharu; caj kitaran baharu; rekod bayaran separa; semakan owner dengan sebab penolakan; rekod bil provider berasingan; QR penerima sedia ada; export CSV.
+- Semua akaun, subscription, bil dan bayaran PayTrack sedia ada digunakan terus.
+- Subscription split, giliran dan hutang; ahli awal daripada pengguna sedia ada; emoji dan nota boleh diedit.
+- Jemput beberapa email sekaligus; pengguna berdaftar terus ditambah, pengguna baharu diterima selepas Google login yang disahkan; batalkan jemputan.
+- Generate sehingga 120 bil dalam satu pelan dengan sela 1/2/3/6/12 bulan. Split menerima jumlah penuh atau jumlah setiap ahli. Giliran boleh disusun naik/turun sebelum jana bil.
+- Hutang lump sum atau ansuran 1–120 bulan, pembahagian tepat hingga sen; halalkan penuh/sebahagian; susun semula baki kepada ansuran baharu.
+- Susun semula mengekalkan bil lama sebagai superseded dan semua sejarah bayaran. Paid markers bernilai sifar menandakan bil lama dipindahkan supaya PayTrack tidak mengira baki itu dua kali.
+- Rekod bayaran separa atau banyak caj sekaligus dengan kaedah dan reference; bayaran pending sehingga owner mengesahkan atau menolak. Pilihan bayaran pukal menunjukkan QR dan jumlah berasingan mengikut penerima.
+- Owner boleh tanda bayaran manual atau undo seluruh caj. Undo mengekalkan audit records dengan status reversed dan mengembalikan baki; ia tidak mengembalikan wang.
+- Profil: upload/tukar/buang QR PNG/JPEG/WebP maksimum 450KB, edit nombor WhatsApp, paparkan gambar Google.
+- Selepas rekod bayaran, buka mesej WhatsApp siap isi mengikut penerima. App tidak menghantar mesej bagi pihak pengguna.
+- Sejarah penuh: filter subscription/ahli, kumpulkan mengikut tarikh atau ahli; bil boleh dikembangkan dan ditapis mengikut tahun serta beberapa ahli.
+- Padam bil bersama bayarannya atau subscription bersama rekod berkaitan melalui dialog pengesahan.
+- Dashboard menunjukkan semua baki dan jumlah mengikut cutoff PayTrack: split/giliran bulan semasa masuk mulai 20 haribulan; semua ansuran hutang masuk tanpa cutoff.
+- Ciri KongsiPay dikekalkan: semakan owner, method/reference, status bil provider berasingan, realtime dan export CSV.
 
-Kitaran baharu menyimpan snapshot UID ahli, penerima dan pecahan integer-sen. Bayaran baharu bermula dengan `status: pending` dan `paid: false`. Apabila owner mengesahkan, ia menggunakan `partialPayment` PayTrack; paid marker bernilai sifar ditambah apabila caj sudah selesai, supaya PayTrack masih mengenali caj itu sebagai settle. Transaksi mengubah revision kitaran untuk mengelakkan dua permintaan serentak melebihi baki. Request ID menghalang penghantaran bayaran yang sama dua kali.
+Kitaran baharu menyimpan snapshot ahli, penerima dan pecahan integer-sen. Bayaran yang disahkan menggunakan partialPayment dan paid marker bernilai sifar supaya PayTrack masih mengenali caj sebagai settle. Request ID dan revision kitaran/subscription melindungi permintaan berulang dan operasi serentak daripada KongsiPay. PayTrack lama tidak menggunakan revision lock tersebut.
 
-Jemputan ialah rekod `pendingEmails`; app tidak menghantar email. Kongsi link sendiri kepada ahli. Ahli yang baru join tidak ditambah kepada snapshot caj yang sudah dijana. Subscription hutang dicipta tanpa bil awal: jemput penghutang dahulu, kemudian jana kitaran. Satu kitaran setiap bulan boleh dijana melalui KongsiPay; julat kitaran PayTrack lama tetap dipaparkan.
+Jemputan tidak menghantar email; kongsi link secara manual. Caj yang sudah dijana tidak berubah apabila ahli baharu masuk. Operasi besar diberi had untuk kekal dalam batas transaksi Firestore; subscription dengan lebih 350 rekod perlu diurus secara berperingkat bagi operasi pelan/hutang, dan pemadaman subscription mempunyai had 450 rekod.
 
 ## Akses dan had
 
@@ -46,7 +59,7 @@ Ujian integration (data tempatan sahaja):
 
 `VITE_USE_EMULATORS=true` hanya digunakan pada localhost / 127.0.0.1. Dalam mode ini app menggunakan project ujian `demo-kongsipay`, Auth port 9099 dan Firestore port 8080. Mode production menggunakan project sebenar.
 
-13 ujian model dan integration lulus: pembacaan legacy, profile lama, akaun tanpa keahlian, jemputan, bayaran pending/separa, owner review, transaksi serentak, penolakan, snapshot ahli, pembundaran sen dan duplicate cycle. Paparan signed-in disemak dengan akaun Google emulator. Google login produksi memerlukan pemilik memilih akaunnya sendiri; sesi sebenar pengguna tidak diambil alih semasa ujian.
+26 ujian model dan integration meliputi: pembacaan legacy, profile lama, akaun tanpa keahlian, jemputan, bayaran pending/separa, owner review, transaksi serentak, penolakan, snapshot ahli, pembundaran sen dan duplicate cycle. Paparan signed-in disemak dengan akaun Google emulator. Google login produksi memerlukan pemilik memilih akaunnya sendiri; sesi sebenar pengguna tidak diambil alih semasa ujian.
 
 Domain Site `kongsipay-demo.umarislah86.chatgpt.site` dan `127.0.0.1` ditambah ke Firebase Authorized Domains tanpa membuang domain PayTrack lama. Tiada provider baru didaftarkan dan tiada akaun produksi dummy dicipta.
 

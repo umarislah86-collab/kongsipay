@@ -1,0 +1,8 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {planCycles,expectedCycle} from '../src/planning.mjs';
+const sub={id:'s',createdBy:'owner',memberUids:['owner','a','b'],billingType:'split'};
+test('bulk split supports per-person amounts and multi-month periods',()=>{const rows=planCycles(sub,{start:'2026-01',end:'2026-12',interval:3,total:1200,perPerson:true});assert.equal(rows.length,4);assert.equal(rows[0].totalAmount,36);assert.equal(rows[0].endDate,'2026-03-31');assert.deepEqual(Object.values(rows[0].shareAmountsCents),[1200,1200,1200]);});
+test('rotation follows chosen order and wraps',()=>{const rows=planCycles({...sub,billingType:'rotation'},{start:'2026-01',end:'2026-05',total:1000,order:['b','owner','a']});assert.deepEqual(rows.map(r=>r.payerUid),['b','owner','a','b','owner']);assert.throws(()=>planCycles({...sub,billingType:'rotation'},{start:'2026-01',end:'2026-02',total:1000,order:['a','a','b']}));});
+test('installments preserve every cent and clamp dates to month length',()=>{const rows=planCycles({...sub,billingType:'hutang'},{start:'2026-01',installments:3,total:1001,payerUid:'a',dueDay:31});assert.deepEqual(rows.map(r=>r.totalAmount),[3.34,3.34,3.33]);assert.equal(rows[1].dueDate,'2026-02-28');assert.equal(rows[2].label,'Ansuran 3/3');});
+test('PayTrack cutoff switches on day 20 and includes all debt',()=>{const cycle={startDate:'2026-10-01'};assert.equal(expectedCycle(cycle,sub,'2026-10-19'),false);assert.equal(expectedCycle(cycle,sub,'2026-10-20'),true);assert.equal(expectedCycle({startDate:'2027-01-01'},{billingType:'hutang'},'2026-10-01'),true);});
