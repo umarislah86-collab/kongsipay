@@ -1,0 +1,32 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{uid} {
+      allow read: if request.auth != null;
+      allow write: if request.auth.uid == uid;
+    }
+    match /subscriptions/{subId} {
+      allow read: if request.auth != null &&
+        (request.auth.uid in resource.data.memberUids ||
+          request.auth.token.email in resource.data.get('pendingEmails', []));
+      allow create: if request.auth != null;
+      allow update: if request.auth != null &&
+        (request.auth.uid in resource.data.memberUids ||
+          request.auth.token.email in resource.data.get('pendingEmails', []));
+      allow delete: if request.auth != null &&
+        request.auth.uid in resource.data.memberUids;
+    }
+    match /billingCycles/{cycleId} {
+      allow read, write: if request.auth != null;
+    }
+    match /payments/{paymentId} {
+      allow read, write: if request.auth != null;
+    }
+    match /games/{gameId} {
+      allow read, write: if true;
+    }
+    match /results/{resultId} {
+      allow read, write: if true;
+    }
+  }
+}

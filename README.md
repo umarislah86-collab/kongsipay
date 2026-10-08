@@ -1,35 +1,53 @@
 # KongsiPay
 
-Prototaip interaktif Bahasa Melayu untuk tracking subscription bersama.
+App pengurusan subscription bersama dalam Bahasa Melayu. Design asal dikekalkan; akaun dan data menggunakan Firebase PayTrack yang sama.
 
-## Jalankan
+## Login dan data lama
 
-Dalam folder project, jalankan `python -m http.server 4173 --bind 127.0.0.1 --directory dist` dan buka http://127.0.0.1:4173.
-
-Semakan kiraan: `node --test tests/ledger.test.cjs`.
+- Firebase project: `hey-9ba52`; Firestore `(default)`, Standard edition, `asia-southeast1`.
+- Google Sign-In menggunakan konfigurasi web app dari `C:\Users\C5407836\paytrack\src\lib\firebase.ts`.
+- Akaun baharu didaftarkan dengan Google pada login pertama. Akaun PayTrack menggunakan UID yang sama apabila memilih akaun Google yang sama.
+- Profil lama, termasuk nama, QR dan nombor WhatsApp, dibaca tanpa ditimpa.
+- Collection lama digunakan terus: `users`, `subscriptions`, `billingCycles`, `payments`. Tiada salinan atau pemadaman rekod lama.
+- Disahkan pada 8 Oktober 2026: 7 profil, 5 subscription, 39 kitaran bil, 128 bayaran. Semua ID rekod dan kandungan cloud kekal selepas integrasi.
+- Query membership hanya memuatkan subscription yang mengandungi UID pengguna, kemudian mendengar perubahan kitaran dan bayaran secara langsung. Akaun tanpa keahlian mendapat paparan kosong.
+- Split, rotation/giliran dan hutang dipaparkan mengikut schema PayTrack; paid markers, partial payments dan isSedekah dikira tanpa menggandakan jumlah.
 
 ## Ciri tersedia
 
-- Ringkasan kutipan ahli, bayaran disahkan, bayaran menunggu dan hutang overdue.
-- Multiple subscription, bulanan/tahunan, pembayar berbeza dan pembahagian sama rata dalam sen.
-- Tambah ahli demo, ubah nama group dan jana caj kitaran seterusnya secara manual.
-- Bayaran separa, reference transaksi, pengesahan, penolakan dengan sebab dan aktiviti.
-- Bil provider direkod berasingan daripada bayaran ahli.
-- Penyata CSV dan data demo yang disimpan pada browser/peranti ini sahaja.
+Ringkasan baki sendiri dan kumpulan; pilihan semua atau satu subscription; senarai ahli; Google login/logout; pendaftaran automatik; jemputan email yang diterima selepas login email disahkan; semakan jemputan manual; subscription baharu; caj kitaran baharu; rekod bayaran separa; semakan owner dengan sebab penolakan; rekod bil provider berasingan; QR penerima sedia ada; export CSV.
 
-## Had prototaip
+Kitaran baharu menyimpan snapshot UID ahli, penerima dan pecahan integer-sen. Bayaran baharu bermula dengan `status: pending` dan `paid: false`. Apabila owner mengesahkan, ia menggunakan `partialPayment` PayTrack; paid marker bernilai sifar ditambah apabila caj sudah selesai, supaya PayTrack masih mengenali caj itu sebagai settle. Transaksi mengubah revision kitaran untuk mengelakkan dua permintaan serentak melebihi baki. Request ID menghalang penghantaran bayaran yang sama dua kali.
 
-Ini belum aplikasi produksi. Semua pengguna demo dikendalikan dari satu paparan owner; tiada authentication atau authorization sebenar. Data dan harga permulaan ialah rekaan Oktober 2026. Data localStorage tidak dikongsi antara peranti atau pengguna dan boleh hilang apabila storan browser dibersihkan. Jangan masukkan maklumat bank, resit atau data peribadi sebenar.
+Jemputan ialah rekod `pendingEmails`; app tidak menghantar email. Kongsi link sendiri kepada ahli. Ahli yang baru join tidak ditambah kepada snapshot caj yang sudah dijana. Subscription hutang dicipta tanpa bil awal: jemput penghutang dahulu, kemudian jana kitaran. Satu kitaran setiap bulan boleh dijana melalui KongsiPay; julat kitaran PayTrack lama tetap dipaparkan.
 
-Belum ada invite sebenar, database bersama, multiple group, upload resit, reminder automatik, recurring job, payment gateway, deposit, kredit, prorata, split custom atau multi-currency. Label prepaid / owner advance merekod pilihan kutipan, tanpa penguatkuasaan pembayaran. Tiada pemindahan wang.
+## Akses dan had
 
-WebMCP read_payment_summary tersedia jika browser menyokong document.modelContext. Input sah dan penolakan input tidak sah telah disemak dalam runtime browser, dengan bacaan baki RM62 dan bayaran menunggu RM6 sepadan dengan dashboard demo.
+Site kekal private untuk owner atas arahan pengguna. Firebase Google login dan data bersama sudah disambungkan, tetapi member lain masih perlu diberi akses kepada Site sebelum mereka boleh membuka link ini.
 
-## Sambungan produksi
+Peraturan Firestore produksi sedia ada tidak diubah dalam integrasi ini. Ia mengehadkan bacaan subscription mengikut membership, tetapi `users` boleh dibaca oleh pengguna berdaftar dan `billingCycles` / `payments` boleh dibaca serta ditulis oleh mana-mana pengguna Firebase yang login. Tindakan owner dalam KongsiPay diperiksa dalam UI dan repository; peraturan cloud lama belum menguatkuasakan sekatan owner itu. Ini batas keselamatan yang perlu ditangani sebelum app dibuka kepada pengguna ramai. Fixture `tests/emulators/paytrack.rules` ialah salinan peraturan lama untuk ujian keserasian, bukan rules baru yang dilancarkan.
 
-1. Authentication dan membership group dengan penguatkuasaan akses pada server.
-2. Database bersama dengan ledger integer-sen dan transaksi atomik; idempotency key untuk caj berulang dan pengesahan bayaran.
-3. Snapshot harga, penerima, ahli dan due date bagi setiap kitaran; ledger pelarasan untuk pembetulan, credit dan refund.
-4. Penyimpanan resit private, had upload, semakan jenis fail dan pautan akses sementara.
-5. Jemputan bertempoh, reminder opt-in dan audit log server.
-6. Gateway melalui webhook bertandatangan jika auto-verification diperlukan.
+Tiada transaksi wang, gateway, recurring job, reminder automatik, upload resit, deposit, kredit atau multi-currency. Jumlah dipaparkan dalam RM, sepadan dengan semua rekod PayTrack yang diperiksa.
+
+## Jalankan
+
+`npm ci`
+
+`npm run dev` — http://127.0.0.1:4173
+
+`npm run build` — hasil static dalam `dist/`, dihoskan melalui Site yang sama.
+
+`npm test` — ujian model; ujian integration dilangkau jika emulator tidak diminta.
+
+Ujian integration (data tempatan sahaja):
+
+1. `firebase emulators:start --project demo-kongsipay --config tests/emulators/firebase.json --only auth,firestore`
+2. Dalam PowerShell terminal lain, set `$env:RUN_FIREBASE_INTEGRATION = '1'` dan jalankan `npm test`.
+
+`VITE_USE_EMULATORS=true` hanya digunakan pada localhost / 127.0.0.1. Dalam mode ini app menggunakan project ujian `demo-kongsipay`, Auth port 9099 dan Firestore port 8080. Mode production menggunakan project sebenar.
+
+13 ujian model dan integration lulus: pembacaan legacy, profile lama, akaun tanpa keahlian, jemputan, bayaran pending/separa, owner review, transaksi serentak, penolakan, snapshot ahli, pembundaran sen dan duplicate cycle. Paparan signed-in disemak dengan akaun Google emulator. Google login produksi memerlukan pemilik memilih akaunnya sendiri; sesi sebenar pengguna tidak diambil alih semasa ujian.
+
+Domain Site `kongsipay-demo.umarislah86.chatgpt.site` dan `127.0.0.1` ditambah ke Firebase Authorized Domains tanpa membuang domain PayTrack lama. Tiada provider baru didaftarkan dan tiada akaun produksi dummy dicipta.
+
+Browser WebMCP `read_payment_summary` memerlukan login dan membaca paparan subscription semasa; ia tidak mengubah data atau memindahkan wang.

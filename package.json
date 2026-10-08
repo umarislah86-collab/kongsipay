@@ -1,0 +1,1 @@
+{"name":"kongsipay","version":"0.2.0","private":true,"scripts":{"dev":"vite --host 127.0.0.1 --port 4173 --strictPort","build":"vite build","test":"node --test tests/*.test.mjs"},"dependencies":{"firebase":"12.18.0"},"devDependencies":{"vite":"8.2.2","@firebase/rules-unit-testing":"5.0.0"}}
