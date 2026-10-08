@@ -64,3 +64,8 @@ Ujian integration (data tempatan sahaja):
 Domain Site `kongsipay-demo.umarislah86.chatgpt.site` dan `127.0.0.1` ditambah ke Firebase Authorized Domains tanpa membuang domain PayTrack lama. Tiada provider baru didaftarkan dan tiada akaun produksi dummy dicipta.
 
 Browser WebMCP `read_payment_summary` memerlukan login dan membaca paparan subscription semasa; ia tidak mengubah data atau memindahkan wang.
+
+## GitHub Pages
+
+Public app: https://umarislah86-collab.github.io/kongsipay/ . Login Google masih diperlukan. Workflow pages.yml membina dengan base /kongsipay/ dan deploy setiap push main. Repo sumber public; tiada snapshot data pengguna atau credential admin disimpan dalam repo. Paparan mobile menukar jadual caj kepada kad, butang sentuhan 44px dan dialog mengikut tinggi skrin. Site lama kekal private.
+
