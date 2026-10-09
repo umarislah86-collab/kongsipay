@@ -2088,5 +2088,25 @@
     "en": "Not settled",
     "ja": "未完了",
     "jv": "Durung rampung"
+  },
+  "Bayaran sendiri sebagai owner terus disahkan; ia tidak memindahkan wang.": {
+    "en": "Your own payment as owner is approved immediately; no money is transferred.",
+    "ja": "オーナー本人の支払いは即時承認されます。送金は行われません。",
+    "jv": "Bayaran dhewe minangka owner langsung disahake; ora mindhah dhuwit."
+  },
+  "Bayaran sendiri disahkan. Baki dikemas kini.": {
+    "en": "Your own payment is approved. Balance updated.",
+    "ja": "本人の支払いを承認しました。残高を更新しました。",
+    "jv": "Bayaran dhewe disahake. Saldo dianyari."
+  },
+  "Bayaran sendiri sebagai owner terus disahkan. Bayaran lain dihantar untuk semakan owner.": {
+    "en": "Your own payments as owner are approved immediately. Other payments are submitted for owner review.",
+    "ja": "オーナー本人の支払いは即時承認され、その他の支払いはオーナーの確認に送られます。",
+    "jv": "Bayaran dhewe minangka owner langsung disahake. Bayaran liyane dikirim kanggo dipriksa owner."
+  },
+  "Bayaran direkodkan; bayaran kepada owner lain menunggu semakan.": {
+    "en": "Payments recorded; payments to other owners await review.",
+    "ja": "支払いを記録しました。他のオーナーへの支払いは確認待ちです。",
+    "jv": "Bayaran dicathet; bayaran marang owner liyane ngenteni pamriksan."
   }
 }
