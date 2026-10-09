@@ -9,7 +9,7 @@ export function monthlyOverview(state,uid,date){
 }
 export function billTimeline(state,charge){
   const sub=state.subscriptions.find(s=>s.id===charge.subscription),cycle=sub?.cycles.find(c=>c.id===charge.cycleId),events=[];
-  if(cycle?.providerPaidAt)events.push({id:'provider',kind:'provider',date:cycle.providerPaidAt,text:'Owner membayar bil provider',amount:cents(cycle.totalAmount),providerProof:cycle.hasProviderProof,cycleId:cycle.id});
+  if(cycle?.providerPaidAt)events.push({id:'provider',kind:'provider',date:cycle.providerPaidAt,text:'Owner membayar bil provider',amount:providerAmount(cycle)||0,providerProof:cycle.hasProviderProof,cycleId:cycle.id});
   if(cycle)events.push({id:'cycle',kind:'created',date:cycle.createdAt||0,text:'Bil dijana',amount:charge.amount});
   for(const p of state.payments.filter(p=>p.cycleId===charge.cycleId&&p.memberUid===charge.member&&!p.settlementMarker)){
     const date=p.createdAt||p.paidAt||0;
@@ -29,3 +29,6 @@ export function reminderGroups(state,uid,{subscription='all',month='all',members
 }
 export function reminderText(state,group,url){const name=id=>state.members.find(m=>m.id===id)?.name||'Ahli',rm=n=>'RM '+(n/100).toFixed(2);return `Hai ${name(group.member)}, reminder mesra daripada KongsiPay:\n\n`+group.charges.map(c=>`• ${state.subscriptions.find(s=>s.id===c.subscription)?.name||'Subscription'} · ${c.period}: ${rm(c.reminderAmount)} (tarikh akhir ${c.due})`).join('\n')+`\n\nJumlah belum direkodkan: ${rm(group.total)}\nBayaran yang sedang disemak tidak termasuk.\n\nSemak bil & hantar bukti: ${url}`;}
 export function statementRows(state,charges){const name=id=>state.members.find(m=>m.id===id)?.name||'Ahli';return charges.map(c=>{const x=settlement(c,state.payments);const forgiven=state.payments.filter(p=>p.cycleId===c.cycleId&&p.memberUid===c.member&&p.isSedekah&&!['reversed','rejected','rescheduled'].includes(p.status)).reduce((n,p)=>n+cents(p.amount),0);return {member:name(c.member),payee:name(c.payee),subscription:state.subscriptions.find(s=>s.id===c.subscription)?.name||'Subscription',period:c.period,due:c.due,amount:c.amount,received:x.received,pending:x.pending,forgiven,balance:x.balance};});}
+
+export function providerAmount(cycle){return Number.isSafeInteger(cycle.providerAmountCents)&&cycle.providerAmountCents>0?cycle.providerAmountCents:null;}
+export function collectionTotal(state,cycleId){return state.charges.filter(c=>c.cycleId===cycleId&&!c.self).reduce((n,c)=>n+c.amount,0);}
