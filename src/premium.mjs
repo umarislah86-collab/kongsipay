@@ -36,4 +36,6 @@ export function collectionTotal(state,cycleId){return state.charges.filter(c=>c.
 
 export function providerFinancials(state,cycle){const charges=state.charges.filter(c=>c.cycleId===cycle.id&&!c.self),collected=summary(state,charges).received,paid=providerAmount(cycle);return {paid,collected,difference:paid===null?null:collected-paid};}
 
-export function subscriptionFinancials(state,sub){const cycles=sub.cycles.filter(c=>!c.superseded),rows=cycles.map(c=>providerFinancials(state,c)),paid=rows.reduce((n,x)=>n+(x.paid??0),0),collected=rows.reduce((n,x)=>n+x.collected,0),missing=rows.filter(x=>x.paid===null).length;return {paid,collected,missing,cycles:cycles.length,difference:missing||!cycles.length?null:collected-paid};}
+export function subscriptionFinancials(state,sub,throughMonth=null){const cycles=sub.cycles.filter(c=>!c.superseded&&(!throughMonth||(c.startDate||c.dueDate||c.endDate||'').slice(0,7)<=throughMonth)),rows=cycles.map(c=>providerFinancials(state,c)),paid=rows.reduce((n,x)=>n+(x.paid??0),0),collected=rows.reduce((n,x)=>n+x.collected,0),missing=rows.filter(x=>x.paid===null).length;return {paid,collected,missing,cycles:cycles.length,difference:missing||!cycles.length?null:collected-paid};}
+
+export function financialCutoff(date){const [year,month,day]=date.split('-').map(Number),d=new Date(Date.UTC(year,month-1-(day<=15?1:0),1));return d.toISOString().slice(0,7);}

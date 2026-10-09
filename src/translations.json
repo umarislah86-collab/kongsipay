@@ -2073,5 +2073,20 @@
     "en": "bills have no provider payment amount recorded. Surplus / deficit cannot yet be determined.",
     "ja": "件の請求に支払額が未入力です。余剰・不足はまだ確定できません。",
     "jv": "tagihan durung diisi jumlah bayaran panyedhiya. Luwih / kurang durung bisa dipesthekake."
+  },
+  "Ringkasan setakat": {
+    "en": "Summary through",
+    "ja": "集計対象月：",
+    "jv": "Ringkesan nganti"
+  },
+  "Cutoff 15hb: bulan semasa dimasukkan mulai 16hb. Bayaran awal untuk bil selepas cutoff tidak termasuk.": {
+    "en": "15th cutoff: the current month is included from the 16th. Advance payments for later bills are excluded.",
+    "ja": "締め日は15日です。当月分は16日から含め、対象月より後の請求への前払いは除外します。",
+    "jv": "Wates tanggal 15: sasi saiki mlebu wiwit tanggal 16. Bayaran awal kanggo tagihan sawise wates ora kalebu."
+  },
+  "Belum selesai": {
+    "en": "Not settled",
+    "ja": "未完了",
+    "jv": "Durung rampung"
   }
 }
