@@ -1,0 +1,2022 @@
+{
+  "Dashboard kutipan": {
+    "en": "Collection dashboard",
+    "ja": "集金ダッシュボード",
+    "jv": "Dasbor penagihan"
+  },
+  "Subscription": {
+    "en": "Subscriptions",
+    "ja": "サブスクリプション",
+    "jv": "Langganan"
+  },
+  "Bayaran saya": {
+    "en": "My payments",
+    "ja": "自分の支払い",
+    "jv": "Bayaranku"
+  },
+  "Profil": {
+    "en": "Profile",
+    "ja": "プロフィール",
+    "jv": "Profil"
+  },
+  "Sejarah bayaran": {
+    "en": "Payment history",
+    "ja": "支払い履歴",
+    "jv": "Riwayat pembayaran"
+  },
+  "Bil & pelan hutang": {
+    "en": "Bills & debt plans",
+    "ja": "請求・返済プラン",
+    "jv": "Tagihan lan rencana utang"
+  },
+  "Ahli": {
+    "en": "Member",
+    "ja": "メンバー",
+    "jv": "Anggota"
+  },
+  "Belum ditetapkan": {
+    "en": "Not set",
+    "ja": "未設定",
+    "jv": "Durung diatur"
+  },
+  "Sedang menyambung…": {
+    "en": "Connecting…",
+    "ja": "接続中…",
+    "jv": "Lagi nyambung…"
+  },
+  "Memuatkan subscription anda.": {
+    "en": "Loading your subscriptions.",
+    "ja": "サブスクリプションを読み込み中。",
+    "jv": "Lagi ngemot langgananmu."
+  },
+  "SUBSCRIPTION BERSAMA": {
+    "en": "SHARED SUBSCRIPTIONS",
+    "ja": "共有サブスクリプション",
+    "jv": "LANGGANAN BARENG"
+  },
+  "Duit kongsi,": {
+    "en": "Shared expenses,",
+    "ja": "費用を分け合い、",
+    "jv": "Dhuwit patungan,"
+  },
+  "semua jelas.": {
+    "en": "everything clear.",
+    "ja": "すべて明確に。",
+    "jv": "kabeh cetha."
+  },
+  "Log masuk atau daftar menggunakan Google. Jika anda pengguna PayTrack, pilih akaun yang sama untuk melihat rekod sedia ada.": {
+    "en": "Sign in with Google. If you used PayTrack, use the same account to see your existing records.",
+    "ja": "Googleでログインしてください。PayTrackをご利用の場合、同じアカウントで既存の記録を確認できます。",
+    "jv": "Mlebu nganggo Google. Yen biyen nganggo PayTrack, pilih akun sing padha kanggo ndeleng cathetan lawas."
+  },
+  "Teruskan dengan Google": {
+    "en": "Continue with Google",
+    "ja": "Googleで続ける",
+    "jv": "Terusake nganggo Google"
+  },
+  "Akaun baharu didaftarkan semasa login pertama.": {
+    "en": "New accounts are created on first sign-in.",
+    "ja": "初回ログイン時にアカウントが作成されます。",
+    "jv": "Akun anyar digawe nalika mlebu pisanan."
+  },
+  "Membuka Google…": {
+    "en": "Opening Google…",
+    "ja": "Googleを開いています…",
+    "jv": "Lagi mbukak Google…"
+  },
+  "Sambungan bermasalah": {
+    "en": "Connection issue",
+    "ja": "接続エラー",
+    "jv": "Sambungan bermasalah"
+  },
+  "Owner & ahli": {
+    "en": "Owner & member",
+    "ja": "オーナー・メンバー",
+    "jv": "Pamilik lan anggota"
+  },
+  "Ahli KongsiPay": {
+    "en": "KongsiPay member",
+    "ja": "KongsiPayメンバー",
+    "jv": "Anggota KongsiPay"
+  },
+  "Dimaafkan": {
+    "en": "Forgiven",
+    "ja": "免除済み",
+    "jv": "Diikhlasake"
+  },
+  "Dah bayar": {
+    "en": "Paid",
+    "ja": "支払い済み",
+    "jv": "Wis mbayar"
+  },
+  "Ahli / penerima": {
+    "en": "Member / recipient",
+    "ja": "メンバー・受取人",
+    "jv": "Anggota / panampa"
+  },
+  "Tarikh akhir": {
+    "en": "Due date",
+    "ja": "支払期限",
+    "jv": "Wates wektu"
+  },
+  "Baki": {
+    "en": "Balance",
+    "ja": "残額",
+    "jv": "Sisa"
+  },
+  "Status": {
+    "en": "Status",
+    "ja": "状態",
+    "jv": "Status"
+  },
+  "Tindakan": {
+    "en": "Actions",
+    "ja": "操作",
+    "jv": "Tumindak"
+  },
+  "Daripada": {
+    "en": "Out of",
+    "ja": "合計",
+    "jv": "Saka"
+  },
+  "Bahagian sendiri": {
+    "en": "Own share",
+    "ja": "自分の負担分",
+    "jv": "Bagean dhewe"
+  },
+  "Kepada": {
+    "en": "To",
+    "ja": "宛先",
+    "jv": "Marang"
+  },
+  "Simpan": {
+    "en": "Save",
+    "ja": "保存",
+    "jv": "Simpen"
+  },
+  "Menyimpan…": {
+    "en": "Saving…",
+    "ja": "保存中…",
+    "jv": "Lagi nyimpen…"
+  },
+  "Rekod bayaran": {
+    "en": "Record payment",
+    "ja": "支払いを記録",
+    "jv": "Cathet pembayaran"
+  },
+  "Jumlah (RM) — maks.": {
+    "en": "Amount (RM) — max.",
+    "ja": "金額 (RM) — 上限",
+    "jv": "Jumlah (RM) — maksimal"
+  },
+  "Kaedah bayaran": {
+    "en": "Payment method",
+    "ja": "支払い方法",
+    "jv": "Cara pembayaran"
+  },
+  "Bank transfer": {
+    "en": "Bank transfer",
+    "ja": "銀行振込",
+    "jv": "Transfer bank"
+  },
+  "Cash": {
+    "en": "Cash",
+    "ja": "現金",
+    "jv": "Awis"
+  },
+  "Reference / nota": {
+    "en": "Reference / note",
+    "ja": "参照番号・メモ",
+    "jv": "Referensi / cathetan"
+  },
+  "Bukti transfer (pilihan)": {
+    "en": "Transfer receipt (optional)",
+    "ja": "振込証明（任意）",
+    "jv": "Bukti transfer (ora wajib)"
+  },
+  "Imej sehingga 8MB; app mengecilkan imej untuk simpanan. Bukti hanya boleh dibuka oleh anda dan owner.": {
+    "en": "Images up to 8MB are compressed. Only you and the owner can view the receipt.",
+    "ja": "8MBまでの画像を圧縮して保存します。証明を閲覧できるのは本人とオーナーだけです。",
+    "jv": "Gambar nganti 8MB bakal dikompres. Bukti mung bisa dideleng sampeyan lan pamilik."
+  },
+  "Buat bayaran melalui kaedah yang dipersetujui dahulu. Butang ini merekodkan bayaran untuk semakan owner; ia tidak memindahkan wang.": {
+    "en": "Pay using the agreed method first. This records payment for owner review; it does not transfer money.",
+    "ja": "合意した方法で先にお支払いください。この操作はオーナー確認用の記録であり、送金は行いません。",
+    "jv": "Mbayara nganggo cara sing disepakati dhisik. Tombol iki mung nyathet kanggo dipriksa pamilik; ora ngirim dhuwit."
+  },
+  "Bayar kepada": {
+    "en": "Pay to",
+    "ja": "支払先",
+    "jv": "Bayar marang"
+  },
+  "Tunggu bukti selesai diproses.": {
+    "en": "Wait for the receipt to finish processing.",
+    "ja": "証明の処理完了をお待ちください。",
+    "jv": "Enteni bukti rampung diproses."
+  },
+  "Bayaran dihantar untuk semakan owner.": {
+    "en": "Payment submitted for owner review.",
+    "ja": "オーナー確認のために送信しました。",
+    "jv": "Pembayaran dikirim kanggo dipriksa pamilik."
+  },
+  "Hantar untuk semakan": {
+    "en": "Submit for review",
+    "ja": "確認用に送信",
+    "jv": "Kirim kanggo dipriksa"
+  },
+  "Sahkan bayaran": {
+    "en": "Approve payment",
+    "ja": "支払いを承認",
+    "jv": "Sahake pembayaran"
+  },
+  "Sahkan": {
+    "en": "Approve",
+    "ja": "承認",
+    "jv": "Sahake"
+  },
+  "Tolak bayaran": {
+    "en": "Reject payment",
+    "ja": "支払いを却下",
+    "jv": "Tolak pembayaran"
+  },
+  "Penerima": {
+    "en": "Recipient",
+    "ja": "受取人",
+    "jv": "Panampa"
+  },
+  "Kitaran": {
+    "en": "Cycle",
+    "ja": "請求期間",
+    "jv": "Periode"
+  },
+  "Jumlah RM": {
+    "en": "Amount RM",
+    "ja": "金額 RM",
+    "jv": "Jumlah RM"
+  },
+  "Disahkan RM": {
+    "en": "Approved RM",
+    "ja": "承認額 RM",
+    "jv": "Disahake RM"
+  },
+  "Baki RM": {
+    "en": "Balance RM",
+    "ja": "残額 RM",
+    "jv": "Sisa RM"
+  },
+  "Memuatkan subscription dan rekod bayaran anda.": {
+    "en": "Loading subscriptions and payment records.",
+    "ja": "サブスクリプションと支払い記録を読み込み中。",
+    "jv": "Lagi ngemot langganan lan cathetan pembayaran."
+  },
+  "Data diselaraskan": {
+    "en": "Data synced",
+    "ja": "同期済み",
+    "jv": "Data wis diselarasake"
+  },
+  "Perlu bayar": {
+    "en": "Payment due",
+    "ja": "支払いが必要",
+    "jv": "Kudu mbayar"
+  },
+  "Menunggu pengesahan": {
+    "en": "Awaiting approval",
+    "ja": "承認待ち",
+    "jv": "Ngenteni pengesahan"
+  },
+  "Dah selesai": {
+    "en": "Settled",
+    "ja": "完了",
+    "jv": "Wis rampung"
+  },
+  "Pilih subscription untuk lihat bil dan bayaran ahli.": {
+    "en": "Choose a subscription to view bills and member payments.",
+    "ja": "サブスクリプションを選び、請求とメンバーの支払いを確認します。",
+    "jv": "Pilih langganan kanggo ndeleng tagihan lan pembayaran anggota."
+  },
+  "Semak jemputan": {
+    "en": "Check invitations",
+    "ja": "招待を確認",
+    "jv": "Priksa undhangan"
+  },
+  "ahli": {
+    "en": "members",
+    "ja": "メンバー",
+    "jv": "anggota"
+  },
+  "Kongsi sama rata": {
+    "en": "Equal split",
+    "ja": "均等割り",
+    "jv": "Patungan padha rata"
+  },
+  "Anda urus": {
+    "en": "Managed by you",
+    "ja": "自分が管理",
+    "jv": "Sampeyan sing ngurus"
+  },
+  "bayaran perlu disahkan": {
+    "en": "payments to approve",
+    "ja": "件の承認待ち",
+    "jv": "pembayaran kudu disahake"
+  },
+  "Baki anda": {
+    "en": "Your balance",
+    "ja": "自分の残額",
+    "jv": "Sisamu"
+  },
+  "Tiada baki": {
+    "en": "No balance",
+    "ja": "残額なし",
+    "jv": "Ora ana sisa"
+  },
+  "Bayaran": {
+    "en": "Payment",
+    "ja": "支払い",
+    "jv": "Pembayaran"
+  },
+  "Tiada reference": {
+    "en": "No reference",
+    "ja": "参照番号なし",
+    "jv": "Ora ana referensi"
+  },
+  "Semua bil anda, dalam satu tempat.": {
+    "en": "All your bills in one place.",
+    "ja": "すべての請求を一か所で。",
+    "jv": "Kabeh tagihanmu ana sak panggonan."
+  },
+  "Bayar beberapa bil": {
+    "en": "Pay multiple bills",
+    "ja": "複数の請求を支払う",
+    "jv": "Bayar sawetara tagihan"
+  },
+  "Sejarah & penyata": {
+    "en": "History & statements",
+    "ja": "履歴・明細",
+    "jv": "Riwayat lan laporan"
+  },
+  "Sejarah bayaran saya": {
+    "en": "My payment history",
+    "ja": "自分の支払い履歴",
+    "jv": "Riwayat pembayaranku"
+  },
+  "Penyata PDF": {
+    "en": "PDF statement",
+    "ja": "PDF明細",
+    "jv": "Laporan PDF"
+  },
+  "Export CSV": {
+    "en": "Export CSV",
+    "ja": "CSV出力",
+    "jv": "Ekspor CSV"
+  },
+  "Semua": {
+    "en": "All",
+    "ja": "すべて",
+    "jv": "Kabeh"
+  },
+  "Semua subscription": {
+    "en": "All subscriptions",
+    "ja": "すべてのサブスクリプション",
+    "jv": "Kabeh langganan"
+  },
+  "Bayar bil saya": {
+    "en": "Pay my bills",
+    "ja": "自分の請求を支払う",
+    "jv": "Bayar tagihanku"
+  },
+  "Bil & bayaran": {
+    "en": "Bills & payments",
+    "ja": "請求・支払い",
+    "jv": "Tagihan lan pembayaran"
+  },
+  "Tekan bil untuk lihat ahli": {
+    "en": "Open a bill to view members",
+    "ja": "請求を開いてメンバーを表示",
+    "jv": "Bukak tagihan kanggo ndeleng anggota"
+  },
+  "Filter bil & ahli": {
+    "en": "Filter bills & members",
+    "ja": "請求・メンバーの絞り込み",
+    "jv": "Saring tagihan lan anggota"
+  },
+  "Tahun": {
+    "en": "Year",
+    "ja": "年",
+    "jv": "Taun"
+  },
+  "Semua tahun": {
+    "en": "All years",
+    "ja": "すべての年",
+    "jv": "Kabeh taun"
+  },
+  "Kosongkan filter": {
+    "en": "Clear filters",
+    "ja": "絞り込みを解除",
+    "jv": "Resiki saringan"
+  },
+  "Ahli & jemputan": {
+    "en": "Members & invitations",
+    "ja": "メンバー・招待",
+    "jv": "Anggota lan undhangan"
+  },
+  "Sejarah & tetapan": {
+    "en": "History & settings",
+    "ja": "履歴・設定",
+    "jv": "Riwayat lan setelan"
+  },
+  "ahli selesai": {
+    "en": "members settled",
+    "ja": "人が完了",
+    "jv": "anggota wis rampung"
+  },
+  "Provider dah dibayar": {
+    "en": "Provider paid",
+    "ja": "提供元に支払い済み",
+    "jv": "Panyedhiya wis dibayar"
+  },
+  "Bayaran provider belum direkod": {
+    "en": "Provider payment not recorded",
+    "ja": "提供元への支払い未記録",
+    "jv": "Pembayaran panyedhiya durung dicathet"
+  },
+  "Kemas kini bukti": {
+    "en": "Update receipt",
+    "ja": "証明を更新",
+    "jv": "Nganyari bukti"
+  },
+  "Upload bukti bayaran provider": {
+    "en": "Upload provider receipt",
+    "ja": "提供元への支払い証明をアップロード",
+    "jv": "Unggah bukti pembayaran panyedhiya"
+  },
+  "Urus bil": {
+    "en": "Manage bill",
+    "ja": "請求を管理",
+    "jv": "Ngurus tagihan"
+  },
+  "Anda": {
+    "en": "You",
+    "ja": "あなた",
+    "jv": "Sampeyan"
+  },
+  "Owner": {
+    "en": "Owner",
+    "ja": "オーナー",
+    "jv": "Pamilik"
+  },
+  "Menunggu login": {
+    "en": "Awaiting sign-in",
+    "ja": "ログイン待ち",
+    "jv": "Ngenteni mlebu"
+  },
+  "Bil langganan terakhir:": {
+    "en": "Latest subscription bill:",
+    "ja": "最新の請求：",
+    "jv": "Tagihan langganan pungkasan:"
+  },
+  "Dah dibayar": {
+    "en": "Paid",
+    "ja": "支払い済み",
+    "jv": "Wis dibayar"
+  },
+  "Belum direkod": {
+    "en": "Not recorded",
+    "ja": "未記録",
+    "jv": "Durung dicathet"
+  },
+  "Akaun dan maklumat untuk menerima bayaran.": {
+    "en": "Account and payment receiving details.",
+    "ja": "アカウント・受取情報。",
+    "jv": "Akun lan informasi kanggo nampa pembayaran."
+  },
+  "QR bayaran": {
+    "en": "Payment QR",
+    "ja": "支払いQR",
+    "jv": "QR pembayaran"
+  },
+  "Tema paparan": {
+    "en": "Appearance",
+    "ja": "表示テーマ",
+    "jv": "Tema tampilan"
+  },
+  "Edit QR & WhatsApp": {
+    "en": "Edit QR & WhatsApp",
+    "ja": "QR・WhatsAppを編集",
+    "jv": "Sunting QR lan WhatsApp"
+  },
+  "Log keluar": {
+    "en": "Sign out",
+    "ja": "ログアウト",
+    "jv": "Metu"
+  },
+  "Belum diisi": {
+    "en": "Not entered",
+    "ja": "未入力",
+    "jv": "Durung diisi"
+  },
+  "Sudah ditetapkan": {
+    "en": "Set",
+    "ja": "設定済み",
+    "jv": "Wis diatur"
+  },
+  "Belum ditambah": {
+    "en": "Not added",
+    "ja": "未追加",
+    "jv": "Durung ditambah"
+  },
+  "Edit subscription": {
+    "en": "Edit subscription",
+    "ja": "サブスクリプションを編集",
+    "jv": "Sunting langganan"
+  },
+  "Tambah subscription": {
+    "en": "Add subscription",
+    "ja": "サブスクリプションを追加",
+    "jv": "Tambah langganan"
+  },
+  "Nama": {
+    "en": "Name",
+    "ja": "名前",
+    "jv": "Jeneng"
+  },
+  "Nota": {
+    "en": "Note",
+    "ja": "メモ",
+    "jv": "Cathetan"
+  },
+  "Jenis": {
+    "en": "Type",
+    "ja": "種類",
+    "jv": "Jinis"
+  },
+  "Split": {
+    "en": "Split",
+    "ja": "均等割り",
+    "jv": "Patungan"
+  },
+  "Giliran": {
+    "en": "Rotation",
+    "ja": "順番",
+    "jv": "Giliran"
+  },
+  "Hutang": {
+    "en": "Debt",
+    "ja": "借入",
+    "jv": "Utang"
+  },
+  "Ahli awal": {
+    "en": "Initial members",
+    "ja": "初期メンバー",
+    "jv": "Anggota wiwitan"
+  },
+  "Anda menjadi owner. Bil boleh dijana selepas ahli dipilih atau dijemput.": {
+    "en": "You are the owner. Generate bills after adding or inviting members.",
+    "ja": "あなたがオーナーになります。メンバー追加・招待後に請求を作成できます。",
+    "jv": "Sampeyan dadi pamilik. Tagihan bisa digawe sawise anggota dipilih utawa diundhang."
+  },
+  "Subscription disimpan.": {
+    "en": "Subscription saved.",
+    "ja": "保存しました。",
+    "jv": "Langganan disimpen."
+  },
+  "Jemput ahli": {
+    "en": "Invite members",
+    "ja": "メンバーを招待",
+    "jv": "Undhang anggota"
+  },
+  "Email Google": {
+    "en": "Google email",
+    "ja": "Googleメール",
+    "jv": "Email Google"
+  },
+  "Ahli dan jemputan dikemas kini.": {
+    "en": "Members and invitations updated.",
+    "ja": "メンバーと招待を更新しました。",
+    "jv": "Anggota lan undhangan dianyari."
+  },
+  "Pelan ansuran hutang": {
+    "en": "Debt installment plan",
+    "ja": "分割返済プラン",
+    "jv": "Rencana cicilan utang"
+  },
+  "Jana bil pukal": {
+    "en": "Generate bills",
+    "ja": "請求を一括作成",
+    "jv": "Gawe tagihan akeh"
+  },
+  "Hari akhir bayar": {
+    "en": "Payment due day",
+    "ja": "毎月の支払期日",
+    "jv": "Dina pungkasan mbayar"
+  },
+  "Jumlah hutang": {
+    "en": "Debt amount",
+    "ja": "借入金額",
+    "jv": "Jumlah utang"
+  },
+  "Jumlah bil": {
+    "en": "Bill amount",
+    "ja": "請求金額",
+    "jv": "Jumlah tagihan"
+  },
+  "Jumlah dimasukkan sebagai": {
+    "en": "Amount represents",
+    "ja": "金額の入力形式",
+    "jv": "Jumlah minangka"
+  },
+  "Jumlah semua ahli": {
+    "en": "Total for all members",
+    "ja": "全メンバーの合計",
+    "jv": "Jumlah kabeh anggota"
+  },
+  "Jumlah setiap ahli": {
+    "en": "Amount per member",
+    "ja": "一人あたりの金額",
+    "jv": "Jumlah saben anggota"
+  },
+  "Bulan mula": {
+    "en": "Start month",
+    "ja": "開始月",
+    "jv": "Wulan wiwitan"
+  },
+  "Bulan akhir": {
+    "en": "End month",
+    "ja": "終了月",
+    "jv": "Wulan pungkasan"
+  },
+  "Penghutang": {
+    "en": "Debtor",
+    "ja": "借主",
+    "jv": "Sing duwe utang"
+  },
+  "Bilangan ansuran": {
+    "en": "Number of installments",
+    "ja": "分割回数",
+    "jv": "Cacah cicilan"
+  },
+  "Sela bil": {
+    "en": "Billing interval",
+    "ja": "請求間隔",
+    "jv": "Jarak tagihan"
+  },
+  "bulan": {
+    "en": "months",
+    "ja": "か月",
+    "jv": "wulan"
+  },
+  "Turutan giliran": {
+    "en": "Payer order",
+    "ja": "支払者の順番",
+    "jv": "Urutan giliran mbayar"
+  },
+  "bil berjaya dijana.": {
+    "en": "bills generated.",
+    "ja": "件の請求を作成しました。",
+    "jv": "tagihan kasil digawe."
+  },
+  "Profil & QR bayaran": {
+    "en": "Profile & payment QR",
+    "ja": "プロフィール・支払いQR",
+    "jv": "Profil lan QR pembayaran"
+  },
+  "DuitNow QR": {
+    "en": "DuitNow QR",
+    "ja": "DuitNow QR",
+    "jv": "DuitNow QR"
+  },
+  "Buang QR": {
+    "en": "Remove QR",
+    "ja": "QRを削除",
+    "jv": "Busak QR"
+  },
+  "Tunggu imej selesai dibaca.": {
+    "en": "Wait for the image to load.",
+    "ja": "画像の読み込みをお待ちください。",
+    "jv": "Enteni gambar rampung diwaca."
+  },
+  "Profil disimpan.": {
+    "en": "Profile saved.",
+    "ja": "プロフィールを保存しました。",
+    "jv": "Profil disimpen."
+  },
+  "Filter ahli & tindakan": {
+    "en": "Member filters & actions",
+    "ja": "メンバー絞り込み・操作",
+    "jv": "Saringan anggota lan tumindak"
+  },
+  "Filter ahli": {
+    "en": "Filter members",
+    "ja": "メンバーを絞り込む",
+    "jv": "Saring anggota"
+  },
+  "Kosongkan filter ahli": {
+    "en": "Clear member filters",
+    "ja": "メンバー絞り込みを解除",
+    "jv": "Resiki saringan anggota"
+  },
+  "Lihat sejarah penuh": {
+    "en": "View full history",
+    "ja": "全履歴を表示",
+    "jv": "Deleng kabeh riwayat"
+  },
+  "Bil ikut tahun": {
+    "en": "Bills by year",
+    "ja": "年別の請求",
+    "jv": "Tagihan miturut taun"
+  },
+  "Semua ahli": {
+    "en": "All members",
+    "ja": "すべてのメンバー",
+    "jv": "Kabeh anggota"
+  },
+  "Kumpulan": {
+    "en": "Group by",
+    "ja": "グループ化",
+    "jv": "Klompokake"
+  },
+  "Tarikh": {
+    "en": "Date",
+    "ja": "日付",
+    "jv": "Tanggal"
+  },
+  "Bil lama": {
+    "en": "Previous bill",
+    "ja": "過去の請求",
+    "jv": "Tagihan lawas"
+  },
+  "Dibatalkan": {
+    "en": "Reversed",
+    "ja": "取消済み",
+    "jv": "Dibatalake"
+  },
+  "Dalam semakan": {
+    "en": "Under review",
+    "ja": "確認中",
+    "jv": "Lagi dipriksa"
+  },
+  "Ditolak": {
+    "en": "Rejected",
+    "ja": "却下済み",
+    "jv": "Ditolak"
+  },
+  "Susun semula": {
+    "en": "Rescheduled",
+    "ja": "再計画済み",
+    "jv": "Ditata maneh"
+  },
+  "Dihalalkan": {
+    "en": "Forgiven",
+    "ja": "免除済み",
+    "jv": "Diikhlasake"
+  },
+  "Bayaran separa": {
+    "en": "Partial payment",
+    "ja": "一部支払い",
+    "jv": "Pembayaran sebagian"
+  },
+  "Disahkan": {
+    "en": "Approved",
+    "ja": "承認済み",
+    "jv": "Disahake"
+  },
+  "Belum bayar": {
+    "en": "Unpaid",
+    "ja": "未払い",
+    "jv": "Durung mbayar"
+  },
+  "Pilih semua": {
+    "en": "Select all",
+    "ja": "すべて選択",
+    "jv": "Pilih kabeh"
+  },
+  "Pilih sekurang-kurangnya satu caj.": {
+    "en": "Select at least one charge.",
+    "ja": "一件以上を選択してください。",
+    "jv": "Pilih paling ora siji tagihan."
+  },
+  "Kaedah": {
+    "en": "Method",
+    "ja": "方法",
+    "jv": "Cara"
+  },
+  "Bukti transfer bersama (pilihan)": {
+    "en": "Shared transfer receipt (optional)",
+    "ja": "共通の振込証明（任意）",
+    "jv": "Bukti transfer bareng (ora wajib)"
+  },
+  "Semua bayaran dihantar untuk semakan.": {
+    "en": "All payments submitted for review.",
+    "ja": "すべての支払いを確認用に送信しました。",
+    "jv": "Kabeh pembayaran dikirim kanggo dipriksa."
+  },
+  "Hantar bayaran": {
+    "en": "Submit payment",
+    "ja": "支払いを送信",
+    "jv": "Kirim pembayaran"
+  },
+  "Jumlah:": {
+    "en": "Total:",
+    "ja": "合計：",
+    "jv": "Jumlah:"
+  },
+  "Maklumkan bayaran": {
+    "en": "Notify payment",
+    "ja": "支払いを通知",
+    "jv": "Ngabari pembayaran"
+  },
+  "Selesai": {
+    "en": "Done",
+    "ja": "完了",
+    "jv": "Rampung"
+  },
+  "Susun semula hutang": {
+    "en": "Reschedule debt",
+    "ja": "返済を再計画",
+    "jv": "Tata maneh utang"
+  },
+  "Halalkan sebahagian (RM)": {
+    "en": "Forgive part (RM)",
+    "ja": "一部を免除 (RM)",
+    "jv": "Ikhlasake sebagian (RM)"
+  },
+  "Ansuran baharu": {
+    "en": "New installments",
+    "ja": "新しい分割返済",
+    "jv": "Cicilan anyar"
+  },
+  "Pelan dikemas kini:": {
+    "en": "Plan updated:",
+    "ja": "プランを更新：",
+    "jv": "Rencana dianyari:"
+  },
+  "ansuran baharu.": {
+    "en": "new installments.",
+    "ja": "回の新しい分割返済。",
+    "jv": "cicilan anyar."
+  },
+  "Halalkan hutang": {
+    "en": "Forgive debt",
+    "ja": "返済を免除",
+    "jv": "Ikhlasake utang"
+  },
+  "Hutang dihalalkan dan direkodkan.": {
+    "en": "Debt forgiven and recorded.",
+    "ja": "免除を記録しました。",
+    "jv": "Utang diikhlasake lan dicathet."
+  },
+  "Lagi": {
+    "en": "More",
+    "ja": "その他",
+    "jv": "Liyane"
+  },
+  "Tanda dibayar": {
+    "en": "Mark paid",
+    "ja": "支払い済みにする",
+    "jv": "Tandhani wis dibayar"
+  },
+  "Undo bayaran": {
+    "en": "Reverse payment",
+    "ja": "支払いを取り消す",
+    "jv": "Batalake pembayaran"
+  },
+  "Edit profil dan QR": {
+    "en": "Edit profile and QR",
+    "ja": "プロフィール・QRを編集",
+    "jv": "Sunting profil lan QR"
+  },
+  "Sahkan bayaran manual": {
+    "en": "Approve manual payment",
+    "ja": "手動支払いを承認",
+    "jv": "Sahake pembayaran manual"
+  },
+  "Pastikan wang telah diterima.": {
+    "en": "Ensure the money was received.",
+    "ja": "入金を確認してください。",
+    "jv": "Priksa manawa dhuwit wis ditampa."
+  },
+  "Status bayaran dikemas kini.": {
+    "en": "Payment status updated.",
+    "ja": "支払い状態を更新しました。",
+    "jv": "Status pembayaran dianyari."
+  },
+  "Padam bil": {
+    "en": "Delete bill",
+    "ja": "請求を削除",
+    "jv": "Busak tagihan"
+  },
+  "Padam bil ini": {
+    "en": "Delete this bill",
+    "ja": "この請求を削除",
+    "jv": "Busak tagihan iki"
+  },
+  "Bil dipadam.": {
+    "en": "Bill deleted.",
+    "ja": "請求を削除しました。",
+    "jv": "Tagihan dibusak."
+  },
+  "Padam subscription": {
+    "en": "Delete subscription",
+    "ja": "サブスクリプションを削除",
+    "jv": "Busak langganan"
+  },
+  "Subscription dipadam.": {
+    "en": "Subscription deleted.",
+    "ja": "削除しました。",
+    "jv": "Langganan dibusak."
+  },
+  "Batal jemputan": {
+    "en": "Cancel invitation",
+    "ja": "招待を取り消す",
+    "jv": "Batalake undhangan"
+  },
+  "Batalkan jemputan": {
+    "en": "Cancel invitation",
+    "ja": "招待を取り消す",
+    "jv": "Batalake undhangan"
+  },
+  "Jemputan dibatalkan.": {
+    "en": "Invitation cancelled.",
+    "ja": "招待を取り消しました。",
+    "jv": "Undhangan dibatalake."
+  },
+  "Rekod lama": {
+    "en": "Old record",
+    "ja": "以前の記録",
+    "jv": "Cathetan lawas"
+  },
+  "Perlu direkodkan untuk bil hingga bulan ini": {
+    "en": "To record for bills through this month",
+    "ja": "今月までの請求で記録が必要",
+    "jv": "Kudu dicathet kanggo tagihan nganti wulan iki"
+  },
+  "Bil akan datang": {
+    "en": "Upcoming bills",
+    "ja": "今後の請求",
+    "jv": "Tagihan sabanjure"
+  },
+  "Bayaran kau, semua jelas.": {
+    "en": "Your payments, all clear.",
+    "ja": "支払いを明確に。",
+    "jv": "Pembayaranmu, kabeh cetha."
+  },
+  "Bulan ini dalam kawalan.": {
+    "en": "This month is under control.",
+    "ja": "今月の支払いを把握。",
+    "jv": "Wulan iki wis terkendhali."
+  },
+  "baki tertunggak": {
+    "en": "overdue balance",
+    "ja": "延滞残額",
+    "jv": "sisa sing kasep"
+  },
+  "Bayar sebahagian": {
+    "en": "Partly paid",
+    "ja": "一部支払い済み",
+    "jv": "Wis mbayar sebagian"
+  },
+  "sedang disemak; baki tersedia": {
+    "en": "under review; available balance",
+    "ja": "確認中・支払い可能な残額",
+    "jv": "lagi dipriksa; sisa sing bisa dibayar"
+  },
+  "Selesai pada": {
+    "en": "Settled on",
+    "ja": "完了日",
+    "jv": "Rampung tanggal"
+  },
+  "Bukti tidak ditemui.": {
+    "en": "Receipt not found.",
+    "ja": "証明が見つかりません。",
+    "jv": "Bukti ora ditemokake."
+  },
+  "Bukti transfer": {
+    "en": "Transfer receipt",
+    "ja": "振込証明",
+    "jv": "Bukti transfer"
+  },
+  "Bukti pengguna; semak dengan rekod bank sebelum sahkan.": {
+    "en": "User receipt; verify bank records before approving.",
+    "ja": "承認前に銀行記録と照合してください。",
+    "jv": "Bukti saka pangguna; cocogake karo cathetan bank sadurunge disahake."
+  },
+  "Tutup": {
+    "en": "Close",
+    "ja": "閉じる",
+    "jv": "Tutup"
+  },
+  "Timeline bil": {
+    "en": "Bill timeline",
+    "ja": "請求の履歴",
+    "jv": "Linimasa tagihan"
+  },
+  "Baki semasa": {
+    "en": "Current balance",
+    "ja": "現在の残額",
+    "jv": "Sisa saiki"
+  },
+  "Reminder bayaran": {
+    "en": "Payment reminder",
+    "ja": "支払いリマインダー",
+    "jv": "Pangeling pembayaran"
+  },
+  "bil": {
+    "en": "bills",
+    "ja": "件の請求",
+    "jv": "tagihan"
+  },
+  "Mesej disalin.": {
+    "en": "Message copied.",
+    "ja": "メッセージをコピーしました。",
+    "jv": "Pesen disalin."
+  },
+  "Pilih teks mesej dan salin secara manual.": {
+    "en": "Select and copy the message manually.",
+    "ja": "メッセージを選択してコピーしてください。",
+    "jv": "Pilih teks pesen lan salin kanthi manual."
+  },
+  "Aku dah bayar provider untuk": {
+    "en": "I have paid the provider for",
+    "ja": "提供元への支払いを完了しました：",
+    "jv": "Aku wis mbayar panyedhiya kanggo"
+  },
+  "Bil:": {
+    "en": "Bill:",
+    "ja": "請求：",
+    "jv": "Tagihan:"
+  },
+  "Buka subscription → pilih bil → Lihat bukti provider:": {
+    "en": "Open subscription → choose bill → View provider receipt:",
+    "ja": "サブスクリプション → 請求 → 提供元への支払い証明：",
+    "jv": "Bukak langganan → pilih tagihan → Deleng bukti panyedhiya:"
+  },
+  "Jumlah dibayar kepada provider:": {
+    "en": "Amount paid to provider:",
+    "ja": "提供元への支払額：",
+    "jv": "Jumlah sing dibayar marang panyedhiya:"
+  },
+  "Jumlah provider belum diisi; rujuk bukti pembayaran.": {
+    "en": "Provider amount not entered; see receipt.",
+    "ja": "支払額は未入力です。証明をご確認ください。",
+    "jv": "Jumlah panyedhiya durung diisi; deleng bukti pembayaran."
+  },
+  "Bukti pembayaran dah diupload. Korang boleh semak dekat app.": {
+    "en": "The receipt has been uploaded. You can check it in the app.",
+    "ja": "支払い証明をアップロードしました。アプリで確認できます。",
+    "jv": "Bukti pembayaran wis diunggah. Bisa dipriksa ing app."
+  },
+  "Bayaran provider dah direkodkan.": {
+    "en": "Provider payment recorded.",
+    "ja": "提供元への支払いを記録しました。",
+    "jv": "Pembayaran panyedhiya wis dicathet."
+  },
+  "Maklumkan ahli di WhatsApp": {
+    "en": "Notify members on WhatsApp",
+    "ja": "WhatsAppでメンバーに通知",
+    "jv": "Ngabari anggota ing WhatsApp"
+  },
+  "Mesej dah siap. Buka WhatsApp, pilih group keluarga atau penerima, kemudian tekan Send.": {
+    "en": "Message ready. Open WhatsApp, choose your family group or recipients, then tap Send.",
+    "ja": "WhatsAppで家族グループまたは受信者を選び、送信してください。",
+    "jv": "Pesen wis siap. Bukak WhatsApp, pilih grup kulawarga utawa panampa, banjur pencet Kirim."
+  },
+  "Hantar ke group / pilih penerima": {
+    "en": "Send to group / choose recipients",
+    "ja": "グループ・受信者を選択",
+    "jv": "Kirim menyang grup / pilih panampa"
+  },
+  "Maklumkan semua ahli di WhatsApp": {
+    "en": "Notify all members on WhatsApp",
+    "ja": "WhatsAppで全メンバーに通知",
+    "jv": "Ngabari kabeh anggota ing WhatsApp"
+  },
+  "Salin mesej": {
+    "en": "Copy message",
+    "ja": "メッセージをコピー",
+    "jv": "Salin pesen"
+  },
+  "Atau buka chat setiap ahli": {
+    "en": "Or open each member's chat",
+    "ja": "または各メンバーのチャットを開く",
+    "jv": "Utawa bukak obrolan saben anggota"
+  },
+  "Buka WhatsApp": {
+    "en": "Open WhatsApp",
+    "ja": "WhatsAppを開く",
+    "jv": "Bukak WhatsApp"
+  },
+  "Lihat bukti provider": {
+    "en": "View provider receipt",
+    "ja": "提供元への支払い証明を見る",
+    "jv": "Deleng bukti panyedhiya"
+  },
+  "Bukti provider": {
+    "en": "Provider receipt",
+    "ja": "提供元への支払い証明",
+    "jv": "Bukti panyedhiya"
+  },
+  "Bukti provider tidak ditemui.": {
+    "en": "Provider receipt not found.",
+    "ja": "証明が見つかりません。",
+    "jv": "Bukti panyedhiya ora ditemokake."
+  },
+  "Bukti bil provider": {
+    "en": "Provider bill receipt",
+    "ja": "提供元への支払い証明",
+    "jv": "Bukti tagihan panyedhiya"
+  },
+  "Dihantar owner pada": {
+    "en": "Uploaded by owner on",
+    "ja": "オーナーのアップロード日：",
+    "jv": "Diunggah pamilik tanggal"
+  },
+  "Semua ahli subscription boleh melihat bukti ini.": {
+    "en": "All subscription members can view this receipt.",
+    "ja": "全メンバーがこの証明を閲覧できます。",
+    "jv": "Kabeh anggota langganan bisa ndeleng bukti iki."
+  },
+  "Bayaran kepada provider": {
+    "en": "Payment to provider",
+    "ja": "提供元への支払い",
+    "jv": "Pembayaran marang panyedhiya"
+  },
+  "Jumlah caj semua ahli:": {
+    "en": "Total member charges:",
+    "ja": "全メンバーの請求合計：",
+    "jv": "Jumlah tagihan kabeh anggota:"
+  },
+  "Jumlah sebenar dibayar kepada provider (RM)": {
+    "en": "Actual amount paid to provider (RM)",
+    "ja": "実際の提供元への支払額 (RM)",
+    "jv": "Jumlah nyata sing dibayar marang panyedhiya (RM)"
+  },
+  "Semak dengan resit provider. Jumlah ini berasingan daripada caj setiap ahli.": {
+    "en": "Check the provider receipt. This amount is separate from each member's charge.",
+    "ja": "提供元の領収書と照合してください。各メンバーの負担額とは別です。",
+    "jv": "Cocogake karo resit panyedhiya. Jumlah iki kapisah saka tagihan saben anggota."
+  },
+  "Bukti bil / pembayaran provider": {
+    "en": "Provider bill / payment receipt",
+    "ja": "提供元の請求・支払い証明",
+    "jv": "Bukti tagihan / pembayaran panyedhiya"
+  },
+  "Rekod & maklumkan ahli": {
+    "en": "Record & notify members",
+    "ja": "記録してメンバーに通知",
+    "jv": "Cathet lan ngabari anggota"
+  },
+  "Penyata bayaran": {
+    "en": "Payment statement",
+    "ja": "支払い明細",
+    "jv": "Laporan pembayaran"
+  },
+  "Menyediakan penyata PDF…": {
+    "en": "Preparing PDF…",
+    "ja": "PDF作成中…",
+    "jv": "Lagi nyiapake PDF…"
+  },
+  "Penyata PDF dimuat turun.": {
+    "en": "PDF downloaded.",
+    "ja": "PDFをダウンロードしました。",
+    "jv": "PDF wis diundhuh."
+  },
+  "Separa": {
+    "en": "Partial",
+    "ja": "一部",
+    "jv": "Sebagian"
+  },
+  "Siapa dah bayar, siapa belum — semua di sini.": {
+    "en": "See who has paid and who hasn't.",
+    "ja": "支払い済み・未払いを一目で確認。",
+    "jv": "Deleng sapa sing wis mbayar lan sing durung."
+  },
+  "Semua yang saya urus": {
+    "en": "All managed by me",
+    "ja": "自分が管理するすべて",
+    "jv": "Kabeh sing tak urus"
+  },
+  "Bulan bil": {
+    "en": "Bill month",
+    "ja": "請求月",
+    "jv": "Wulan tagihan"
+  },
+  "Semua bulan": {
+    "en": "All months",
+    "ja": "すべての月",
+    "jv": "Kabeh wulan"
+  },
+  "Patut diterima": {
+    "en": "Expected",
+    "ja": "受取予定",
+    "jv": "Kudu ditampa"
+  },
+  "Dah diterima": {
+    "en": "Received",
+    "ja": "受取済み",
+    "jv": "Wis ditampa"
+  },
+  "Belum diterima": {
+    "en": "Not received",
+    "ja": "未受取",
+    "jv": "Durung ditampa"
+  },
+  "Kutipan daripada ahli sahaja; bahagian sendiri tidak termasuk.": {
+    "en": "Member collections only; your own share is excluded.",
+    "ja": "メンバーからの集金のみ。自分の負担分は含みません。",
+    "jv": "Patungan saka anggota wae; bagean dhewe ora klebu."
+  },
+  "Status ahli": {
+    "en": "Member status",
+    "ja": "メンバーの状態",
+    "jv": "Status anggota"
+  },
+  "Tekan nama untuk lihat bil": {
+    "en": "Open a name to view bills",
+    "ja": "名前を押して請求を表示",
+    "jv": "Pencet jeneng kanggo ndeleng tagihan"
+  },
+  "Semua bil termasuk bil akan datang.": {
+    "en": "All bills, including upcoming bills.",
+    "ja": "今後の請求を含むすべての請求。",
+    "jv": "Kabeh tagihan, kalebu tagihan sabanjure."
+  },
+  "telah dihalalkan.": {
+    "en": "has been forgiven.",
+    "ja": "は免除済みです。",
+    "jv": "wis diikhlasake."
+  },
+  "Diterima:": {
+    "en": "Received:",
+    "ja": "受取済み：",
+    "jv": "Ditampa:"
+  },
+  "Belum selesai:": {
+    "en": "Unsettled:",
+    "ja": "未完了：",
+    "jv": "Durung rampung:"
+  },
+  "Dalam semakan:": {
+    "en": "Under review:",
+    "ja": "確認中：",
+    "jv": "Lagi dipriksa:"
+  },
+  "Dihalalkan:": {
+    "en": "Forgiven:",
+    "ja": "免除済み：",
+    "jv": "Diikhlasake:"
+  },
+  "bayaran untuk disahkan": {
+    "en": "payments to approve",
+    "ja": "件の承認待ち",
+    "jv": "pembayaran kanggo disahake"
+  },
+  "Penyata kutipan owner": {
+    "en": "Owner collection statement",
+    "ja": "オーナー集金明細",
+    "jv": "Laporan patungan pamilik"
+  },
+  "Notis": {
+    "en": "Notices",
+    "ja": "通知",
+    "jv": "Kabar"
+  },
+  "notis belum dibaca": {
+    "en": "unread notices",
+    "ja": "件の未読通知",
+    "jv": "kabar durung diwaca"
+  },
+  "Notis subscription": {
+    "en": "Subscription notices",
+    "ja": "サブスクリプションの通知",
+    "jv": "Kabar langganan"
+  },
+  "Bukti pembayaran provider daripada owner subscription anda.": {
+    "en": "Provider payment receipts from your subscription owner.",
+    "ja": "オーナーからの提供元への支払い証明。",
+    "jv": "Bukti pembayaran panyedhiya saka pamilik langgananmu."
+  },
+  "Owner dah bayar provider": {
+    "en": "Owner paid the provider",
+    "ja": "オーナーが提供元に支払いました",
+    "jv": "Pamilik wis mbayar panyedhiya"
+  },
+  "pada": {
+    "en": "on",
+    "ja": "日時",
+    "jv": "tanggal"
+  },
+  "Tanda dibaca": {
+    "en": "Mark read",
+    "ja": "既読にする",
+    "jv": "Tandhani wis diwaca"
+  },
+  "Notifikasi browser": {
+    "en": "Browser notifications",
+    "ja": "ブラウザ通知",
+    "jv": "Notifikasi browser"
+  },
+  "Tetapan notifikasi": {
+    "en": "Notification settings",
+    "ja": "通知設定",
+    "jv": "Setelan notifikasi"
+  },
+  "Aktifkan notifikasi": {
+    "en": "Enable notifications",
+    "ja": "通知を有効にする",
+    "jv": "Uripake notifikasi"
+  },
+  "Notifikasi browser aktif.": {
+    "en": "Browser notifications enabled.",
+    "ja": "ブラウザ通知は有効です。",
+    "jv": "Notifikasi browser urip."
+  },
+  "Notifikasi browser dimatikan.": {
+    "en": "Browser notifications disabled.",
+    "ja": "ブラウザ通知は無効です。",
+    "jv": "Notifikasi browser dipateni."
+  },
+  "Matikan notifikasi": {
+    "en": "Disable notifications",
+    "ja": "通知を無効にする",
+    "jv": "Pateni notifikasi"
+  },
+  "Ikut peranti": {
+    "en": "System",
+    "ja": "システム",
+    "jv": "Miturut piranti"
+  },
+  "Gelap": {
+    "en": "Dark",
+    "ja": "ダーク",
+    "jv": "Peteng"
+  },
+  "Terang": {
+    "en": "Light",
+    "ja": "ライト",
+    "jv": "Padhang"
+  },
+  "Bahasa": {
+    "en": "Language",
+    "ja": "言語",
+    "jv": "Basa"
+  },
+  "Pilih bahasa paparan.": {
+    "en": "Choose your display language.",
+    "ja": "表示言語を選択してください。",
+    "jv": "Pilih basa tampilanmu."
+  },
+  "Pasang app": {
+    "en": "Install app",
+    "ja": "アプリをインストール",
+    "jv": "Pasang app"
+  },
+  "Batal": {
+    "en": "Cancel",
+    "ja": "キャンセル",
+    "jv": "Batal"
+  },
+  "Paparan": {
+    "en": "View",
+    "ja": "表示",
+    "jv": "Tampilan"
+  },
+  "Pilih subscription": {
+    "en": "Choose subscription",
+    "ja": "サブスクリプションを選択",
+    "jv": "Pilih langganan"
+  },
+  "Navigasi utama": {
+    "en": "Main navigation",
+    "ja": "メインナビゲーション",
+    "jv": "Navigasi utama"
+  },
+  "AKAUN BERSAMA": {
+    "en": "SHARED ACCOUNT",
+    "ja": "共有アカウント",
+    "jv": "AKUN BARENG"
+  },
+  "Subscription & rekod bayaran": {
+    "en": "Subscriptions & payment records",
+    "ja": "サブスクリプション・支払い記録",
+    "jv": "Langganan lan cathetan pembayaran"
+  },
+  "dikemas kini secara langsung.": {
+    "en": "updated in real time.",
+    "ja": "リアルタイムで更新。",
+    "jv": "dianyari langsung."
+  },
+  "Semak akaun anda.": {
+    "en": "Checking your account.",
+    "ja": "アカウントを確認中。",
+    "jv": "Lagi mriksa akunmu."
+  },
+  "Ikon subscription": {
+    "en": "Subscription icon",
+    "ja": "サブスクリプションのアイコン",
+    "jv": "Ikon langganan"
+  },
+  "Pilih ikon & warna anda": {
+    "en": "Choose your icon & color",
+    "ja": "アイコンと色を選択",
+    "jv": "Pilih ikon lan warnamu"
+  },
+  "Pilihan ikon": {
+    "en": "Icon choices",
+    "ja": "アイコンの選択",
+    "jv": "Pilihan ikon"
+  },
+  "Warna ikon": {
+    "en": "Icon color",
+    "ja": "アイコンの色",
+    "jv": "Werna ikon"
+  },
+  "Tiada bayaran baharu diperlukan": {
+    "en": "No new payment needed",
+    "ja": "新たな支払いは不要",
+    "jv": "Ora perlu pembayaran anyar"
+  },
+  "Baharu": {
+    "en": "New",
+    "ja": "新着",
+    "jv": "Anyar"
+  },
+  "Lihat bukti transfer": {
+    "en": "View transfer receipt",
+    "ja": "振込証明を見る",
+    "jv": "Deleng bukti transfer"
+  },
+  "Muat turun bukti": {
+    "en": "Download receipt",
+    "ja": "証明をダウンロード",
+    "jv": "Undhuh bukti"
+  },
+  "Tiada bukti dilampirkan.": {
+    "en": "No receipt attached.",
+    "ja": "証明の添付なし。",
+    "jv": "Ora ana bukti dilampirake."
+  },
+  "Sebab penolakan": {
+    "en": "Rejection reason",
+    "ja": "却下理由",
+    "jv": "Alesan penolakan"
+  },
+  "Padam resit": {
+    "en": "Delete receipt",
+    "ja": "証明を削除",
+    "jv": "Busak resit"
+  },
+  "Ganti resit": {
+    "en": "Replace receipt",
+    "ja": "証明を差し替える",
+    "jv": "Ganti resit"
+  },
+  "Resit dipadam.": {
+    "en": "Receipt deleted.",
+    "ja": "証明を削除しました。",
+    "jv": "Resit dibusak."
+  },
+  "Resit diganti.": {
+    "en": "Receipt replaced.",
+    "ja": "証明を差し替えました。",
+    "jv": "Resit diganti."
+  },
+  "Padam bukti ini? Rekod bayaran dan jumlah tidak berubah.": {
+    "en": "Delete this receipt? Payment records and amounts stay unchanged.",
+    "ja": "この証明を削除しますか？支払い記録と金額は変更されません。",
+    "jv": "Busak bukti iki? Cathetan pembayaran lan jumlah tetep padha."
+  },
+  "Bukti baharu": {
+    "en": "New receipt",
+    "ja": "新しい証明",
+    "jv": "Bukti anyar"
+  },
+  "Tiada resit dipilih.": {
+    "en": "No receipt selected.",
+    "ja": "証明を選択してください。",
+    "jv": "Ora ana resit dipilih."
+  },
+  "Tekan Bayar untuk lihat QR dan rekodkan bayaran. Status selesai selepas owner mengesahkan wang diterima.": {
+    "en": "Tap Pay to view the QR and record payment. It is settled after the owner confirms receipt.",
+    "ja": "「支払う」でQRを表示し記録します。オーナーの入金確認後に完了します。",
+    "jv": "Pencet Bayar kanggo ndeleng QR lan nyathet pembayaran. Rampung sawise pamilik ngonfirmasi dhuwit ditampa."
+  },
+  "Pisahkan email dengan koma atau baris baharu. Pengguna sedia ada terus ditambah; pengguna baharu menerima keahlian selepas login. Kongsi link secara manual.": {
+    "en": "Separate emails with commas or new lines. Existing users are added now; new users join after sign-in. Share the link yourself.",
+    "ja": "メールをカンマか改行で区切ります。既存ユーザーは追加、新規ユーザーはログイン後に参加します。リンクを共有してください。",
+    "jv": "Pisahake email nganggo koma utawa baris anyar. Pangguna lawas langsung ditambah; pangguna anyar gabung sawise mlebu. Bagikna pranala dhewe."
+  },
+  "Semua bil dalam pelan disimpan sekali gus. Ansuran dibahagi tepat hingga sen. Bulan yang sudah mempunyai bil tidak boleh dijana semula.": {
+    "en": "All bills are saved together. Installments are split to the cent. Months with existing bills cannot be generated again.",
+    "ja": "すべての請求を同時保存します。分割はセント単位で調整。既存の請求月は再作成できません。",
+    "jv": "Kabeh tagihan disimpen bebarengan. Cicilan dibagi nganti sen. Wulan sing wis ana tagihane ora bisa digawe maneh."
+  },
+  "PNG, JPEG atau WebP, maksimum 450KB. Gunakan nombor WhatsApp berserta kod negara.": {
+    "en": "PNG, JPEG or WebP, up to 450KB. Include your country code in the WhatsApp number.",
+    "ja": "PNG・JPEG・WebP、450KBまで。WhatsApp番号には国番号を含めてください。",
+    "jv": "PNG, JPEG utawa WebP, maksimal 450KB. Nomer WhatsApp nganggo kode negara."
+  },
+  "Kembangkan bil untuk semak caj setiap ahli.": {
+    "en": "Expand bills to view each member's charges.",
+    "ja": "請求を開いて各メンバーの負担額を確認。",
+    "jv": "Bukak tagihan kanggo mriksa biaya saben anggota."
+  },
+  "Semua rekod termasuk bayaran separa, halalkan, ditolak dan pembetulan.": {
+    "en": "All records, including partial payments, forgiveness, rejections and corrections.",
+    "ja": "一部支払い・免除・却下・修正を含むすべての記録。",
+    "jv": "Kabeh cathetan, kalebu pembayaran sebagian, pangikhlasan, penolakan lan koreksi."
+  },
+  "Pilih maksimum 8 caj yang telah dibayar. Rekod dihantar serentak untuk semakan setiap owner. Bayaran kepada owner berbeza dipaparkan berasingan.": {
+    "en": "Select up to 8 paid charges for owner review. Payments to different owners are shown separately.",
+    "ja": "支払い済みの項目を最大8件選んで確認用に送信します。オーナー別に表示されます。",
+    "jv": "Pilih maksimal 8 tagihan sing wis dibayar kanggo dipriksa pamilik. Pembayaran marang pamilik beda ditampilake kapisah."
+  },
+  "Bukti ini dilampirkan pada setiap caj terpilih dan boleh dilihat oleh owner setiap caj.": {
+    "en": "This receipt is attached to each selected charge and visible to its owner.",
+    "ja": "証明は選択した各項目に添付され、それぞれのオーナーに表示されます。",
+    "jv": "Bukti iki dilampirake ing saben tagihan sing dipilih lan bisa dideleng pamilike."
+  },
+  "Bayaran telah direkodkan. Buka mesej WhatsApp untuk setiap penerima dan tekan hantar sendiri.": {
+    "en": "Payment recorded. Open each recipient's WhatsApp message and send it yourself.",
+    "ja": "支払いを記録しました。各受取人のWhatsAppを開き、送信してください。",
+    "jv": "Pembayaran wis dicathet. Bukak pesen WhatsApp saben panampa lan kirim dhewe."
+  },
+  "Bil yang belum selesai diganti dengan ansuran baharu. Sejarah bayaran dan bil lama dikekalkan sebagai rekod.": {
+    "en": "Unsettled bills are replaced with new installments. Previous bills and payment history are retained.",
+    "ja": "未完了の請求を新しい分割に置き換えます。過去の請求・支払い履歴は保持されます。",
+    "jv": "Tagihan sing durung rampung diganti cicilan anyar. Tagihan lawas lan riwayat pembayaran tetep disimpen."
+  },
+  "Masukkan baki penuh untuk halalkan semua.": {
+    "en": "Enter the full balance to forgive all.",
+    "ja": "全額免除する場合は残額全体を入力してください。",
+    "jv": "Lebokna kabeh sisa kanggo ngikhlasake kabeh."
+  },
+  "Semua rekod bayaran bagi caj ini akan dibatalkan; sejarah kekal dalam log.": {
+    "en": "Payments for this charge will be reversed; history remains in the log.",
+    "ja": "この項目の支払いを取り消します。履歴は残ります。",
+    "jv": "Pembayaran tagihan iki bakal dibatalake; riwayat tetep ana ing log."
+  },
+  "Semua bil dan rekod bayaran": {
+    "en": "All bills and payment records",
+    "ja": "すべての請求と支払い記録",
+    "jv": "Kabeh tagihan lan cathetan pembayaran"
+  },
+  "akan dipadam. Taip PADAM untuk sahkan.": {
+    "en": "will be deleted. Type PADAM to confirm.",
+    "ja": "を削除します。確認のためPADAMと入力してください。",
+    "jv": "bakal dibusak. Ketik PADAM kanggo konfirmasi."
+  },
+  "Pilih ahli dan buka mesej WhatsApp. Pending dan bil akan datang tidak dimasukkan; app tidak menghantar mesej sendiri.": {
+    "en": "Choose a member and open WhatsApp. Pending and upcoming bills are excluded. You send the message yourself.",
+    "ja": "メンバーを選びWhatsAppを開きます。確認中・今後の請求は除外。送信は手動です。",
+    "jv": "Pilih anggota lan bukak WhatsApp. Tagihan pending lan sabanjure ora klebu. Pesen dikirim dhewe."
+  },
+  "Upload bukti selepas membayar provider. Semua ahli boleh semak bukti dan menerima notis dalam app.": {
+    "en": "Upload a receipt after paying the provider. Members can view it and receive in-app notices.",
+    "ja": "提供元への支払い後に証明をアップロードします。メンバーが閲覧でき、アプリ内通知を受け取ります。",
+    "jv": "Unggah bukti sawise mbayar panyedhiya. Anggota bisa mriksa lan nampa kabar ing app."
+  },
+  "PNG/JPEG/WebP sehingga 8MB. Tutup maklumat peribadi yang tidak perlu sebelum upload.": {
+    "en": "PNG/JPEG/WebP up to 8MB. Hide unnecessary personal details before uploading.",
+    "ja": "PNG・JPEG・WebP、8MBまで。不要な個人情報は隠してください。",
+    "jv": "PNG/JPEG/WebP nganti 8MB. Tutup informasi pribadi sing ora perlu sadurunge unggah."
+  },
+  "Provider dibayar. Bukti dan notis tersedia kepada ahli.": {
+    "en": "Provider paid. Receipt and notices are available to members.",
+    "ja": "支払いを記録。メンバーが証明・通知を確認できます。",
+    "jv": "Panyedhiya dibayar. Bukti lan kabar kasedhiya kanggo anggota."
+  },
+  "Bayaran disahkan. Baki dikemas kini.": {
+    "en": "Payment approved. Balance updated.",
+    "ja": "支払いを承認し残額を更新しました。",
+    "jv": "Pembayaran disahake. Sisa dianyari."
+  },
+  "Bayaran ditolak; ahli boleh hantar semula.": {
+    "en": "Payment rejected; the member can resubmit.",
+    "ja": "却下しました。再送信できます。",
+    "jv": "Pembayaran ditolak; anggota bisa ngirim maneh."
+  },
+  "Sahkan selepas memastikan wang telah diterima.": {
+    "en": "Approve after confirming the money was received.",
+    "ja": "入金確認後に承認してください。",
+    "jv": "Sahake sawise dhuwit wis ditampa."
+  },
+  "Nombor WhatsApp belum diisi": {
+    "en": "WhatsApp number not entered",
+    "ja": "WhatsApp番号未入力",
+    "jv": "Nomer WhatsApp durung diisi"
+  },
+  "Nombor WhatsApp belum ditetapkan": {
+    "en": "WhatsApp number not set",
+    "ja": "WhatsApp番号は未設定",
+    "jv": "Nomer WhatsApp durung diatur"
+  },
+  "Isi nombor WhatsApp di Profil, atau pilih penerima di atas.": {
+    "en": "Set a WhatsApp number in Profile, or choose recipients above.",
+    "ja": "プロフィールで番号を設定するか、上で受信者を選択してください。",
+    "jv": "Isi nomer WhatsApp ing Profil, utawa pilih panampa ing ndhuwur."
+  },
+  "Terima notis bila owner membayar provider ketika KongsiPay sedang dibuka. Notis dalam app sentiasa tersedia.": {
+    "en": "Receive browser alerts while KongsiPay is open. In-app notices are always available.",
+    "ja": "KongsiPayを開いている間にブラウザ通知を受け取れます。アプリ内通知は常に確認できます。",
+    "jv": "Nampa kabar browser nalika KongsiPay dibukak. Kabar ing app tansah kasedhiya."
+  },
+  "Notifikasi bergantung pada sokongan dan izin browser.": {
+    "en": "Notifications depend on browser support and permission.",
+    "ja": "通知はブラウザの対応と許可が必要です。",
+    "jv": "Notifikasi gumantung dhukungan lan idin browser."
+  },
+  "Browser ini tidak menyokong notifikasi. Gunakan notis dalam app.": {
+    "en": "This browser doesn't support notifications. Use in-app notices.",
+    "ja": "このブラウザは通知に未対応です。アプリ内通知をご利用ください。",
+    "jv": "Browser iki ora ndhukung notifikasi. Gunakake kabar ing app."
+  },
+  "Izin ditolak. Anda masih menerima notis dalam app.": {
+    "en": "Permission denied. In-app notices remain available.",
+    "ja": "許可されていません。アプリ内通知は利用できます。",
+    "jv": "Idin ditolak. Kabar ing app tetep kasedhiya."
+  },
+  "Bukti belum dilampirkan.": {
+    "en": "Receipt not attached yet.",
+    "ja": "証明は未添付です。",
+    "jv": "Bukti durung dilampirake."
+  },
+  "Belum ada notis pembayaran provider.": {
+    "en": "No provider payment notices yet.",
+    "ja": "提供元への支払い通知はまだありません。",
+    "jv": "Durung ana kabar pembayaran panyedhiya."
+  },
+  "Tiada caj dalam paparan ini.": {
+    "en": "No charges in this view.",
+    "ja": "この表示には請求がありません。",
+    "jv": "Ora ana tagihan ing tampilan iki."
+  },
+  "Tiada bil dalam pilihan ini.": {
+    "en": "No bills in this selection.",
+    "ja": "該当する請求はありません。",
+    "jv": "Ora ana tagihan ing pilihan iki."
+  },
+  "Tiada rekod.": {
+    "en": "No records.",
+    "ja": "記録なし。",
+    "jv": "Ora ana cathetan."
+  },
+  "Belum ada subscription": {
+    "en": "No subscriptions yet",
+    "ja": "サブスクリプションはまだありません",
+    "jv": "Durung ana langganan"
+  },
+  "Mula dengan tambah subscription atau minta owner jemput email Google anda.": {
+    "en": "Add a subscription or ask an owner to invite your Google email.",
+    "ja": "追加するか、オーナーにGoogleメールでの招待を依頼してください。",
+    "jv": "Tambah langganan utawa jaluk pamilik ngundhang email Google sampeyan."
+  },
+  "Belum ada bil. Tambah bil pertama untuk mula rekod bayaran.": {
+    "en": "No bills yet. Add the first bill to start recording payments.",
+    "ja": "請求はまだありません。最初の請求を追加してください。",
+    "jv": "Durung ana tagihan. Tambah tagihan pisanan kanggo nyathet pembayaran."
+  },
+  "Tambah bil": {
+    "en": "Add bill",
+    "ja": "請求を追加",
+    "jv": "Tambah tagihan"
+  },
+  "Bayar": {
+    "en": "Pay",
+    "ja": "支払う",
+    "jv": "Bayar"
+  },
+  "Bayar & hantar bukti": {
+    "en": "Pay & submit receipt",
+    "ja": "支払い・証明を送信",
+    "jv": "Bayar lan kirim bukti"
+  },
+  "Kembali": {
+    "en": "Back",
+    "ja": "戻る",
+    "jv": "Bali"
+  },
+  "Tindakan gagal. Cuba semula.": {
+    "en": "Action failed. Try again.",
+    "ja": "失敗しました。再試行してください。",
+    "jv": "Tumindak gagal. Coba maneh."
+  },
+  "Akses data ditolak. Semak akaun dan keahlian subscription anda.": {
+    "en": "Access denied. Check your account and subscription membership.",
+    "ja": "アクセス拒否。アカウントと参加状況をご確認ください。",
+    "jv": "Akses ditolak. Priksa akun lan keanggotaan langgananmu."
+  },
+  "Sambungan terganggu. Semak internet dan cuba lagi.": {
+    "en": "Connection interrupted. Check your internet and try again.",
+    "ja": "接続が切れました。通信環境を確認して再試行してください。",
+    "jv": "Sambungan keganggu. Priksa internet lan coba maneh."
+  },
+  "Cuba sambung semula": {
+    "en": "Reconnect",
+    "ja": "再接続",
+    "jv": "Sambung maneh"
+  },
+  "Tukar akaun": {
+    "en": "Switch account",
+    "ja": "アカウントを切り替える",
+    "jv": "Ganti akun"
+  },
+  "Jemputan diterima. Subscription akan muncul sebentar lagi.": {
+    "en": "Invitation accepted. The subscription will appear shortly.",
+    "ja": "招待を承認しました。まもなく表示されます。",
+    "jv": "Undhangan ditampa. Langganan bakal katon sedhela maneh."
+  },
+  "Tiada jemputan baharu untuk akaun ini.": {
+    "en": "No new invitations for this account.",
+    "ja": "新しい招待はありません。",
+    "jv": "Ora ana undhangan anyar kanggo akun iki."
+  },
+  "Bil dijana": {
+    "en": "Bill created",
+    "ja": "請求を作成",
+    "jv": "Tagihan digawe"
+  },
+  "Owner membayar bil provider": {
+    "en": "Owner paid the provider bill",
+    "ja": "オーナーが提供元に支払い",
+    "jv": "Pamilik mbayar tagihan panyedhiya"
+  },
+  "Bayaran dihantar untuk semakan": {
+    "en": "Payment submitted for review",
+    "ja": "確認用に送信",
+    "jv": "Pembayaran dikirim kanggo dipriksa"
+  },
+  "Bayaran ditolak": {
+    "en": "Payment rejected",
+    "ja": "支払いを却下",
+    "jv": "Pembayaran ditolak"
+  },
+  "Bayaran disahkan owner": {
+    "en": "Payment approved by owner",
+    "ja": "オーナーが承認",
+    "jv": "Pembayaran disahake pamilik"
+  },
+  "Baki disusun semula": {
+    "en": "Balance rescheduled",
+    "ja": "残額を再計画",
+    "jv": "Sisa ditata maneh"
+  },
+  "Bayaran separa direkodkan": {
+    "en": "Partial payment recorded",
+    "ja": "一部支払いを記録",
+    "jv": "Pembayaran sebagian dicathet"
+  },
+  "Bayaran direkodkan": {
+    "en": "Payment recorded",
+    "ja": "支払いを記録",
+    "jv": "Pembayaran dicathet"
+  },
+  "Bayaran dibatalkan": {
+    "en": "Payment reversed",
+    "ja": "支払いを取り消し",
+    "jv": "Pembayaran dibatalake"
+  },
+  "Umum": {
+    "en": "General",
+    "ja": "一般",
+    "jv": "Umum"
+  },
+  "Muzik": {
+    "en": "Music",
+    "ja": "音楽",
+    "jv": "Musik"
+  },
+  "TV & skrin": {
+    "en": "TV & screens",
+    "ja": "テレビ・画面",
+    "jv": "TV lan layar"
+  },
+  "Dompet": {
+    "en": "Wallet",
+    "ja": "財布",
+    "jv": "Dompet"
+  },
+  "Kad & bil": {
+    "en": "Cards & bills",
+    "ja": "カード・請求",
+    "jv": "Kertu lan tagihan"
+  },
+  "Rumah": {
+    "en": "Home",
+    "ja": "住居",
+    "jv": "Omah"
+  },
+  "Telefon": {
+    "en": "Phone",
+    "ja": "電話",
+    "jv": "Telpon"
+  },
+  "Elektrik": {
+    "en": "Electricity",
+    "ja": "電気",
+    "jv": "Listrik"
+  },
+  "Air": {
+    "en": "Water",
+    "ja": "水道",
+    "jv": "Banyu"
+  },
+  "Kopi": {
+    "en": "Coffee",
+    "ja": "コーヒー",
+    "jv": "Kopi"
+  },
+  "Makanan": {
+    "en": "Food",
+    "ja": "食事",
+    "jv": "Panganan"
+  },
+  "Kereta": {
+    "en": "Car",
+    "ja": "車",
+    "jv": "Mobil"
+  },
+  "Belajar": {
+    "en": "Learning",
+    "ja": "学習",
+    "jv": "Sinau"
+  },
+  "Penjagaan": {
+    "en": "Care",
+    "ja": "ケア",
+    "jv": "Pangopenan"
+  },
+  "Hai": {
+    "en": "Hi",
+    "ja": "こんにちは",
+    "jv": "Halo"
+  },
+  "reminder mesra daripada KongsiPay:": {
+    "en": "a friendly reminder from KongsiPay:",
+    "ja": "KongsiPayからのお知らせ：",
+    "jv": "pangeling saka KongsiPay:"
+  },
+  "tarikh akhir": {
+    "en": "due date",
+    "ja": "支払期限",
+    "jv": "wates wektu"
+  },
+  "Jumlah belum direkodkan:": {
+    "en": "Amount not yet recorded:",
+    "ja": "未記録の金額：",
+    "jv": "Jumlah sing durung dicathet:"
+  },
+  "Bayaran yang sedang disemak tidak termasuk.": {
+    "en": "Payments under review are excluded.",
+    "ja": "確認中の支払いは除外しています。",
+    "jv": "Pembayaran sing lagi dipriksa ora klebu."
+  },
+  "Semak bil & hantar bukti:": {
+    "en": "View bills & submit receipt:",
+    "ja": "請求を確認し証明を送信：",
+    "jv": "Priksa tagihan lan kirim bukti:"
+  },
+  "Hutang dihalalkan": {
+    "en": "Debt forgiven",
+    "ja": "返済を免除",
+    "jv": "Utang diikhlasake"
+  },
+  "Domain ini belum dibenarkan untuk login Google. Hubungi owner untuk semak tetapan login.": {
+    "en": "This domain is not allowed for Google sign-in. Contact the owner.",
+    "ja": "このドメインではGoogleログインが許可されていません。オーナーに連絡してください。",
+    "jv": "Domain iki durung diidini kanggo mlebu Google. Hubungi pamilik."
+  },
+  "Popup login disekat. Benarkan popup untuk KongsiPay dan cuba lagi.": {
+    "en": "Sign-in popup blocked. Allow popups for KongsiPay and try again.",
+    "ja": "ログイン画面がブロックされました。ポップアップを許可してください。",
+    "jv": "Popup mlebu diblokir. Idini popup KongsiPay lan coba maneh."
+  },
+  "Login belum selesai. Tekan Google untuk cuba semula.": {
+    "en": "Sign-in unfinished. Tap Google to try again.",
+    "ja": "ログイン未完了。Googleを押して再試行してください。",
+    "jv": "Durung rampung mlebu. Pencet Google kanggo coba maneh."
+  },
+  "Bayar kepada ": {
+    "en": "Pay to ",
+    "ja": "支払先 ",
+    "jv": "Bayar marang "
+  },
+  "Kepada ": {
+    "en": "To ",
+    "ja": "宛先 ",
+    "jv": "Marang "
+  },
+  "baki": {
+    "en": "balance",
+    "ja": "残額",
+    "jv": "sisa"
+  },
+  "Tertunggak": {
+    "en": "Overdue",
+    "ja": "延滞",
+    "jv": "Kasep"
+  },
+  "Owner advance": {
+    "en": "Owner advance",
+    "ja": "オーナー立替",
+    "jv": "Pamilik mbayar dhisik"
+  },
+  "Prepaid": {
+    "en": "Prepaid",
+    "ja": "前払い",
+    "jv": "Bayar dhisik"
+  },
+  "dan upload bukti": {
+    "en": "and uploaded a receipt",
+    "ja": "証明をアップロードしました",
+    "jv": "lan ngunggah bukti"
+  },
+  "owner dah bayar provider": {
+    "en": "owner paid the provider",
+    "ja": "オーナーが提供元へ支払いました",
+    "jv": "pamilik wis mbayar panyedhiya"
+  },
+  "Buka KongsiPay untuk semak bukti.": {
+    "en": "Open KongsiPay to view the receipt.",
+    "ja": "KongsiPayで証明を確認してください。",
+    "jv": "Bukak KongsiPay kanggo mriksa bukti."
+  },
+  "bil provider dibayar": {
+    "en": "provider bill paid",
+    "ja": "提供元への支払い完了",
+    "jv": "tagihan panyedhiya dibayar"
+  },
+  "Tiada baki untuk diingatkan dalam pilihan ini.": {
+    "en": "No outstanding amounts to remind in this selection.",
+    "ja": "リマインド対象の残額はありません。",
+    "jv": "Ora ana sisa kanggo dielingake ing pilihan iki."
+  },
+  "Tiada bil dalam tahun ini.": {
+    "en": "No bills this year.",
+    "ja": "この年の請求はありません。",
+    "jv": "Ora ana tagihan ing taun iki."
+  },
+  "Bukti bayaran ini tidak boleh diubah.": {
+    "en": "This payment receipt cannot be changed.",
+    "ja": "この支払い証明は変更できません。",
+    "jv": "Bukti pembayaran iki ora bisa diowahi."
+  },
+  "Isi jumlah sebenar bayaran provider.": {
+    "en": "Enter the actual provider payment amount.",
+    "ja": "実際の提供元への支払額を入力してください。",
+    "jv": "Isi jumlah nyata pembayaran panyedhiya."
+  },
+  "Bukti tidak sah.": {
+    "en": "Invalid receipt.",
+    "ja": "無効な証明。",
+    "jv": "Bukti ora sah."
+  },
+  "Pilih teks mesej untuk salin secara manual.": {
+    "en": "Select the message to copy it manually.",
+    "ja": "メッセージを選択してコピーしてください。",
+    "jv": "Pilih teks pesen kanggo disalin manual."
+  },
+  "Subscription / bil": {
+    "en": "Subscription / bill",
+    "ja": "サブスクリプション・請求",
+    "jv": "Langganan / tagihan"
+  },
+  "Jumlah": {
+    "en": "Amount",
+    "ja": "金額",
+    "jv": "Jumlah"
+  },
+  "Diterima": {
+    "en": "Received",
+    "ja": "受取済み",
+    "jv": "Ditampa"
+  },
+  "Halal": {
+    "en": "Forgiven",
+    "ja": "免除",
+    "jv": "Diikhlasake"
+  },
+  "Pending": {
+    "en": "Pending",
+    "ja": "確認待ち",
+    "jv": "Pending"
+  },
+  "Penyata rekod, bukan bukti transaksi bank.": {
+    "en": "Record statement, not a bank transaction receipt.",
+    "ja": "記録明細であり、銀行の取引証明ではありません。",
+    "jv": "Laporan cathetan, dudu bukti transaksi bank."
+  },
+  "Halaman": {
+    "en": "Page",
+    "ja": "ページ",
+    "jv": "Kaca"
+  },
+  "Dashboard": {
+    "en": "Dashboard",
+    "ja": "ダッシュボード",
+    "jv": "Dasbor"
+  },
+  "Timeline": {
+    "en": "Timeline",
+    "ja": "履歴",
+    "jv": "Linimasa"
+  }
+}
