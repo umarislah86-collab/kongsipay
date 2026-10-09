@@ -2053,5 +2053,25 @@
     "en": "Collected amounts include approved payments only; pending payments and forgiven debts are excluded.",
     "ja": "承認済みの支払いのみを集計します。確認中の支払い・免除分は含みません。",
     "jv": "Jumlah sing ditampa mung pembayaran sing disahake; pending lan utang sing diikhlasake ora klebu."
+  },
+  "Ringkasan keseluruhan subscription": {
+    "en": "Overall subscription summary",
+    "ja": "サブスクリプション全体の概要",
+    "jv": "Ringkesan sakabehe langganan"
+  },
+  "Semua bil; tidak terikat kepada filter tahun atau ahli.": {
+    "en": "All bills, regardless of year or member filters.",
+    "ja": "年やメンバーの絞り込みに関係なく、すべての請求を集計します。",
+    "jv": "Kabeh tagihan, tanpa gumantung filter taun utawa anggota."
+  },
+  "Jumlah sebenar dibayar kepada provider": {
+    "en": "Total actually paid to provider",
+    "ja": "プロバイダーへの実際の支払総額",
+    "jv": "Total nyata sing dibayar marang panyedhiya"
+  },
+  "bil belum diisi jumlah bayaran provider. Lebihan / kekurangan belum dapat dipastikan.": {
+    "en": "bills have no provider payment amount recorded. Surplus / deficit cannot yet be determined.",
+    "ja": "件の請求に支払額が未入力です。余剰・不足はまだ確定できません。",
+    "jv": "tagihan durung diisi jumlah bayaran panyedhiya. Luwih / kurang durung bisa dipesthekake."
   }
 }
