@@ -2018,5 +2018,40 @@
     "en": "Timeline",
     "ja": "履歴",
     "jv": "Linimasa"
+  },
+  "Bayaran sebenar kepada provider": {
+    "en": "Actual paid to provider",
+    "ja": "提供元への実際の支払額",
+    "jv": "Pembayaran nyata marang panyedhiya"
+  },
+  "Jumlah diterima": {
+    "en": "Amount collected",
+    "ja": "集金額",
+    "jv": "Jumlah sing ditampa"
+  },
+  "Lebihan / kekurangan": {
+    "en": "Surplus / deficit",
+    "ja": "余剰・不足",
+    "jv": "Luwih / kurang"
+  },
+  "Lebihan": {
+    "en": "Surplus",
+    "ja": "余剰",
+    "jv": "Luwih"
+  },
+  "Kekurangan": {
+    "en": "Deficit",
+    "ja": "不足",
+    "jv": "Kurang"
+  },
+  "Seimbang": {
+    "en": "Balanced",
+    "ja": "差額なし",
+    "jv": "Imbang"
+  },
+  "Jumlah diterima hanya termasuk bayaran disahkan; bayaran pending dan hutang dihalalkan tidak termasuk.": {
+    "en": "Collected amounts include approved payments only; pending payments and forgiven debts are excluded.",
+    "ja": "承認済みの支払いのみを集計します。確認中の支払い・免除分は含みません。",
+    "jv": "Jumlah sing ditampa mung pembayaran sing disahake; pending lan utang sing diikhlasake ora klebu."
   }
 }

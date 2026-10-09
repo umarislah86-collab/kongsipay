@@ -33,3 +33,5 @@ export function statementRows(state,charges){const name=id=>state.members.find(m
 
 export function providerAmount(cycle){return Number.isSafeInteger(cycle.providerAmountCents)&&cycle.providerAmountCents>0?cycle.providerAmountCents:null;}
 export function collectionTotal(state,cycleId){return state.charges.filter(c=>c.cycleId===cycleId&&!c.self).reduce((n,c)=>n+c.amount,0);}
+
+export function providerFinancials(state,cycle){const charges=state.charges.filter(c=>c.cycleId===cycle.id&&!c.self),collected=summary(state,charges).received,paid=providerAmount(cycle);return {paid,collected,difference:paid===null?null:collected-paid};}
