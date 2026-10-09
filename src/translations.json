@@ -1111,7 +1111,7 @@
   },
   "Bukti provider": {
     "en": "Provider receipt",
-    "ja": "提供元への支払い証明",
+    "ja": "プロバイダー領収書",
     "jv": "Bukti panyedhiya"
   },
   "Bukti provider tidak ditemui.": {
@@ -2108,5 +2108,40 @@
     "en": "Payments recorded; payments to other owners await review.",
     "ja": "支払いを記録しました。他のオーナーへの支払いは確認待ちです。",
     "jv": "Bayaran dicathet; bayaran marang owner liyane ngenteni pamriksan."
+  },
+  "Ringkasan provider merangkumi semua ahli dan semua bil subscription, tanpa filter.": {
+    "en": "Provider summary covers all members and all subscription bills, without filters.",
+    "ja": "プロバイダー集計はフィルターに関係なく全メンバーと全請求を対象とします。",
+    "jv": "Ringkesan panyedhiya nyakup kabeh anggota lan kabeh tagihan langganan, tanpa filter."
+  },
+  "Belum dapat dipastikan": {
+    "en": "Not yet determined",
+    "ja": "未確定",
+    "jv": "Durung bisa dipesthekake"
+  },
+  "Skop": {
+    "en": "Scope",
+    "ja": "対象範囲",
+    "jv": "Cakupan"
+  },
+  "Bil tanpa jumlah provider": {
+    "en": "Bills without provider amount",
+    "ja": "支払額未入力の請求",
+    "jv": "Tagihan tanpa jumlah panyedhiya"
+  },
+  "Ada": {
+    "en": "Available",
+    "ja": "あり",
+    "jv": "Ana"
+  },
+  "Tiada": {
+    "en": "None",
+    "ja": "なし",
+    "jv": "Ora ana"
+  },
+  "Semua bil": {
+    "en": "All bills",
+    "ja": "すべての請求",
+    "jv": "Kabeh tagihan"
   }
 }
