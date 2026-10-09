@@ -297,7 +297,7 @@
   "Semak jemputan": {
     "en": "Check invitations",
     "ja": "招待を確認",
-    "jv": "Priksa undhangan"
+    "jv": "Priksa undangan"
   },
   "ahli": {
     "en": "members",
@@ -586,7 +586,7 @@
   },
   "Email Google": {
     "en": "Google email",
-    "ja": "Googleメール",
+    "ja": "Googleのメール",
     "jv": "Email Google"
   },
   "Ahli dan jemputan dikemas kini.": {
@@ -2143,5 +2143,240 @@
     "en": "All bills",
     "ja": "すべての請求",
     "jv": "Kabeh tagihan"
+  },
+  "Belanja bersama": {
+    "en": "Shared expenses",
+    "ja": "共同支出",
+    "jv": "Belanja bebarengan"
+  },
+  "Tabung": {
+    "en": "Savings funds",
+    "ja": "積立金",
+    "jv": "Tabungan"
+  },
+  "Shopping list": {
+    "en": "Shopping list",
+    "ja": "買い物リスト",
+    "jv": "Dhaptar blanja"
+  },
+  "Ruang bersama untuk belanja, tabung dan barang harian.": {
+    "en": "A shared space for expenses, savings and everyday shopping.",
+    "ja": "支出、積立金、日用品を共有するスペース。",
+    "jv": "Papan bebarengan kanggo belanja, tabungan lan barang saben dina."
+  },
+  "Cipta ruang Utility": {
+    "en": "Create a Utility space",
+    "ja": "Utilityスペースを作成",
+    "jv": "Gawe papan Utility"
+  },
+  "Jemput ahli menggunakan email Google. Keahlian ruang ini berasingan daripada subscription.": {
+    "en": "Invite members by Google email. Space membership is separate from subscriptions.",
+    "ja": "Googleのメールで招待します。スペースのメンバーはサブスクリプションとは別です。",
+    "jv": "Undang anggota nganggo email Google. Anggota papan kapisah saka langganan."
+  },
+  "Cipta ruang": {
+    "en": "Create space",
+    "ja": "スペースを作成",
+    "jv": "Gawe papan"
+  },
+  "Ruang baharu": {
+    "en": "New space",
+    "ja": "新しいスペース",
+    "jv": "Papan anyar"
+  },
+  "Ruang": {
+    "en": "Space",
+    "ja": "スペース",
+    "jv": "Papan"
+  },
+  "Paparan Utility": {
+    "en": "Utility display",
+    "ja": "Utilityの表示設定",
+    "jv": "Tampilan Utility"
+  },
+  "Ahli ruang": {
+    "en": "Space members",
+    "ja": "スペースのメンバー",
+    "jv": "Anggota papan"
+  },
+  "belanja belum selesai": {
+    "en": "unsettled expenses",
+    "ja": "未精算の支出",
+    "jv": "belanja durung rampung"
+  },
+  "tabung aktif": {
+    "en": "active funds",
+    "ja": "有効な積立金",
+    "jv": "tabungan aktif"
+  },
+  "barang belum dibeli": {
+    "en": "items to buy",
+    "ja": "未購入の商品",
+    "jv": "barang durung dituku"
+  },
+  "Perlu perhatian": {
+    "en": "Needs attention",
+    "ja": "確認が必要",
+    "jv": "Perlu digatekake"
+  },
+  "Tiada perkara aktif. Tambah rekod untuk mula.": {
+    "en": "Nothing active. Add a record to get started.",
+    "ja": "有効な項目はありません。記録を追加してください。",
+    "jv": "Ora ana sing aktif. Tambah cathetan kanggo miwiti."
+  },
+  "Tambah": {
+    "en": "Add",
+    "ja": "追加",
+    "jv": "Tambah"
+  },
+  "Aktif": {
+    "en": "Active",
+    "ja": "有効",
+    "jv": "Aktif"
+  },
+  "Belum dibeli": {
+    "en": "Not purchased",
+    "ja": "未購入",
+    "jv": "Durung dituku"
+  },
+  "Dah beli": {
+    "en": "Purchased",
+    "ja": "購入済み",
+    "jv": "Wis dituku"
+  },
+  "Dibayar oleh": {
+    "en": "Paid by",
+    "ja": "支払者",
+    "jv": "Dibayar dening"
+  },
+  "Sahkan diterima": {
+    "en": "Confirm received",
+    "ja": "受領を確認",
+    "jv": "Sahake ditampa"
+  },
+  "Pembayar mengesahkan selepas duit diterima. App tidak memindahkan wang.": {
+    "en": "The payer confirms after receiving the money. The app does not transfer money.",
+    "ja": "支払者が入金後に確認します。アプリは送金しません。",
+    "jv": "Sing mbayar sahake sawise dhuwit ditampa. App ora mindhah dhuwit."
+  },
+  "Aktifkan semula": {
+    "en": "Reactivate",
+    "ja": "再開",
+    "jv": "Aktifake maneh"
+  },
+  "Arkibkan": {
+    "en": "Archive",
+    "ja": "アーカイブ",
+    "jv": "Arsipake"
+  },
+  "Target": {
+    "en": "Target",
+    "ja": "目標",
+    "jv": "Target"
+  },
+  "Baki tabung": {
+    "en": "Fund balance",
+    "ja": "積立金残高",
+    "jv": "Saldo tabungan"
+  },
+  "Rekod sumbangan": {
+    "en": "Record contribution",
+    "ja": "拠出を記録",
+    "jv": "Cathet sumbangan"
+  },
+  "Rekod penggunaan": {
+    "en": "Record spending",
+    "ja": "使用を記録",
+    "jv": "Cathet panggunaan"
+  },
+  "Belum ada transaksi.": {
+    "en": "No transactions yet.",
+    "ja": "取引はまだありません。",
+    "jv": "Durung ana transaksi."
+  },
+  "Tiada rekod dalam pilihan ini.": {
+    "en": "No records in this selection.",
+    "ja": "該当する記録はありません。",
+    "jv": "Ora ana cathetan ing pilihan iki."
+  },
+  "Kuantiti / nota": {
+    "en": "Quantity / note",
+    "ja": "数量・メモ",
+    "jv": "Cacah / cathetan"
+  },
+  "Target (RM)": {
+    "en": "Target (RM)",
+    "ja": "目標額 (RM)",
+    "jv": "Target (RM)"
+  },
+  "Jumlah (RM)": {
+    "en": "Amount (RM)",
+    "ja": "金額 (RM)",
+    "jv": "Jumlah (RM)"
+  },
+  "Ahli yang kongsi": {
+    "en": "Participating members",
+    "ja": "参加メンバー",
+    "jv": "Anggota sing melu"
+  },
+  "Jumlah dibahagi sama rata, tepat hingga sen. Pembayar mesti termasuk dalam pilihan ahli.": {
+    "en": "Split equally to the cent. The payer must be one of the participants.",
+    "ja": "端数まで均等に分けます。支払者を参加者に含めてください。",
+    "jv": "Dibagi padha nganti sen. Sing mbayar kudu kalebu anggota sing dipilih."
+  },
+  "Rekod disimpan.": {
+    "en": "Record saved.",
+    "ja": "記録を保存しました。",
+    "jv": "Cathetan disimpen."
+  },
+  "Nama ruang": {
+    "en": "Space name",
+    "ja": "スペース名",
+    "jv": "Jeneng papan"
+  },
+  "Ruang dicipta.": {
+    "en": "Space created.",
+    "ja": "スペースを作成しました。",
+    "jv": "Papan digawe."
+  },
+  "Jemputan diterima.": {
+    "en": "Invitation accepted.",
+    "ja": "招待を承認しました。",
+    "jv": "Undangan ditampa."
+  },
+  "Tiada jemputan baharu.": {
+    "en": "No new invitations.",
+    "ja": "新しい招待はありません。",
+    "jv": "Ora ana undangan anyar."
+  },
+  "Jemputan disimpan. Minta ahli tekan Semak jemputan di Utility.": {
+    "en": "Invitation saved. Ask the member to tap Check invitations in Utility.",
+    "ja": "招待を保存しました。メンバーにUtilityで招待を確認してもらってください。",
+    "jv": "Undangan disimpen. Kandhani anggota mencet Priksa undangan ing Utility."
+  },
+  "Ubah status": {
+    "en": "Change status",
+    "ja": "状態を変更",
+    "jv": "Ganti status"
+  },
+  "Kemaskini status rekod ini?": {
+    "en": "Update this record's status?",
+    "ja": "この記録の状態を更新しますか？",
+    "jv": "Nganyari status cathetan iki?"
+  },
+  "Nota transaksi": {
+    "en": "Transaction note",
+    "ja": "取引メモ",
+    "jv": "Cathetan transaksi"
+  },
+  "Rekod selepas wang benar-benar dibayar atau digunakan. App tidak memindahkan wang.": {
+    "en": "Record only after money is actually paid or spent. The app does not transfer money.",
+    "ja": "実際の支払い・使用後に記録してください。アプリは送金しません。",
+    "jv": "Cathet sawise dhuwit tenan dibayar utawa digunakake. App ora mindhah dhuwit."
+  },
+  "Tetapan ini untuk akaun anda sahaja; rekod tidak dipadam.": {
+    "en": "These settings apply only to your account; records are not deleted.",
+    "ja": "この設定はあなたのアカウントのみに適用され、記録は削除されません。",
+    "jv": "Setelan iki mung kanggo akun sampeyan; cathetan ora dibusak."
   }
 }
