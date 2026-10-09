@@ -1,0 +1,78 @@
+rules_version = '2';
+// KongsiPay: users (uid/email identity immutable; own or shared-subscription profile),
+// subscriptions (createdBy immutable owner; verified email self-admission only),
+// billingCycles (subscriptionId immutable; owner financial fields; member revision only),
+// payments (cycle/sub/member identity immutable; members submit pending only),
+// paymentProofs (immutable image <=600000 chars; payer/owner only),
+// providerProofs (owner image, visible to subscription members),
+// userLookups (exact email -> uid, get only; no enumeration),
+// profileAccess/{viewer}/members/{target} (verified shared subscription, no profile copy).
+// Legacy games/results rules are preserved for other apps in this Firebase project.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signed(){return request.auth != null;}
+    function verified(){return signed() && request.auth.token.get('email_verified',false) == true;}
+    function email(){return request.auth.token.get('email','').lower();}
+    function sub(id){return get(/databases/$(database)/documents/subscriptions/$(id)).data;}
+    function member(id){return signed() && request.auth.uid in sub(id).memberUids;}
+    function owner(id){return signed() && sub(id).createdBy == request.auth.uid;}
+    function text(v,max){return v is string && v.size() <= max;}
+    function number(v){return v is number && v >= 0 && v <= 1000000;}
+    function validUser(d,uid){return d.keys().hasOnly(['uid','name','email','photoURL','createdAt','whatsappNo','qrUrl']) && d.uid == uid && text(d.name,150) && text(d.email,254) && d.createdAt is number && text(d.get('photoURL',''),2048) && text(d.get('whatsappNo',''),25) && text(d.get('qrUrl',''),650000);}
+    function sharedProfile(uid){let grant=get(/databases/$(database)/documents/profileAccess/$(request.auth.uid)/members/$(uid)).data;return member(grant.subscriptionId) && uid in sub(grant.subscriptionId).memberUids;}
+    function validSub(d){return d.keys().hasOnly(['name','description','iconEmoji','iconKey','iconColor','billingType','memberUids','pendingEmails','createdBy','createdAt','currency','kongsipay','kongsipayRevision']) && text(d.name,60) && d.name.size()>0 && text(d.get('description',''),500) && text(d.get('iconEmoji',''),16) && text(d.get('iconKey',''),24) && text(d.get('iconColor',''),24) && d.billingType in ['split','rotation','hutang'] && text(d.createdBy,128) && d.memberUids is list && d.memberUids.size() >= 1 && d.memberUids.size() <= 50 && d.memberUids.toSet().size() == d.memberUids.size() && d.createdBy in d.memberUids && d.get('pendingEmails',[]) is list && d.get('pendingEmails',[]).size() <= 50 && d.memberUids.size()+d.get('pendingEmails',[]).size() <= 50 && d.get('createdAt',0) is number && d.get('currency','RM') == 'RM' && d.get('kongsipay',{}) is map && d.get('kongsipayRevision',0) is int;}
+    function selfAdmission(before,after){return verified() && email() in before.get('pendingEmails',[]) && after.diff(before).affectedKeys().hasOnly(['memberUids','pendingEmails']) && after.memberUids.toSet() == before.memberUids.toSet().union([request.auth.uid].toSet()) && after.get('pendingEmails',[]).toSet() == before.get('pendingEmails',[]).toSet().difference([email()].toSet());}
+    function validCycle(d){return d.keys().hasOnly(['subscriptionId','label','startDate','endDate','dueDate','totalAmount','perPersonAmount','payerUid','createdAt','memberUids','shareAmountsCents','payeeUid','providerPaid','providerPaidAt','providerPaidBy','hasProviderProof','frequency','source','excludeProviderShare','superseded','refinanceRequest','kongsipayRevision']) && text(d.subscriptionId,128) && text(d.label,150) && text(d.startDate,10) && text(d.endDate,10) && number(d.totalAmount) && number(d.perPersonAmount) && d.createdAt is number && text(d.get('payerUid',''),128) && text(d.get('payeeUid',''),128) && text(d.get('dueDate',''),10) && d.get('memberUids',[]) is list && d.get('memberUids',[]).size()<=50 && d.get('shareAmountsCents',{}) is map && d.get('shareAmountsCents',{}).size()<=50 && d.get('providerPaid',false) is bool && d.get('hasProviderProof',false) is bool && d.get('superseded',false) is bool && d.get('kongsipayRevision',0) is int && d.get('kongsipayRevision',0)>=0;}
+    function validPayment(d){return d.keys().hasOnly(['cycleId','subscriptionId','memberUid','amount','amountCents','paid','partialPayment','isSedekah','status','method','reference','submittedBy','createdAt','paidAt','source','hasProof','bulkRequestId','reviewedBy','reviewedAt','rejectionReason','reversedBy','reversedAt','settlementMarker','rescheduleMarker']) && text(d.cycleId,220) && text(d.subscriptionId,128) && text(d.memberUid,128) && number(d.amount) && d.paid is bool && d.get('partialPayment',false) is bool && d.get('isSedekah',false) is bool && d.get('hasProof',false) is bool && d.get('status','') in ['','pending','approved','rejected','reversed','forgiven','rescheduled'] && text(d.get('reference',''),160) && text(d.get('rejectionReason',''),160) && text(d.get('method',''),30) && d.get('createdAt',0) is number && (d.get('paidAt',0) is number || d.get('paidAt',0)==null);}
+    function pendingPayment(d){let cycle=get(/databases/$(database)/documents/billingCycles/$(d.cycleId)).data;let shares=cycle.get('shareAmountsCents',{});let limit=shares.get(d.memberUid,cycle.perPersonAmount*100);return member(d.subscriptionId) && d.memberUid == request.auth.uid && d.submittedBy == request.auth.uid && cycle.subscriptionId == d.subscriptionId && cycle.get('superseded',false) == false && (sub(d.subscriptionId).billingType == 'split' ? d.memberUid in cycle.get('memberUids',sub(d.subscriptionId).memberUids) : cycle.payerUid == d.memberUid) && d.status == 'pending' && d.paid == false && d.partialPayment == false && d.isSedekah == false && d.amount > 0 && d.amount <= limit / 100.0 && d.method in ['Bank transfer','DuitNow','E-wallet','Cash'] && d.source == 'kongsipay' && !d.keys().hasAny(['reviewedBy','reviewedAt','paidAt','rejectionReason','reversedBy','reversedAt','settlementMarker','rescheduleMarker']) && getAfter(/databases/$(database)/documents/billingCycles/$(d.cycleId)).data.get('kongsipayRevision',0) == cycle.get('kongsipayRevision',0)+1;}
+    function validProof(d){return text(d.dataUrl,600000) && d.dataUrl.matches('data:image/(jpeg|png|webp);base64,[A-Za-z0-9+/]+={0,2}') && text(d.name,80) && d.createdAt is number && text(d.subscriptionId,128) && text(d.cycleId,220);}
+    match /users/{uid} {
+      allow get: if signed() && (request.auth.uid == uid || sharedProfile(uid));
+      allow create: if verified() && request.auth.uid == uid && validUser(request.resource.data,uid) && request.resource.data.email.lower() == email();
+      allow update: if verified() && request.auth.uid == uid && validUser(request.resource.data,uid) && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['uid','email','createdAt']);
+      allow delete: if false;
+    }
+    match /userLookups/{lookup} {
+      allow get: if verified();
+      allow create,update: if verified() && lookup == email() && request.resource.data.keys().hasOnly(['uid','email']) && request.resource.data.uid == request.auth.uid && request.resource.data.email == email();
+    }
+    match /profileAccess/{viewer}/members/{target} {
+      allow get: if signed() && request.auth.uid == viewer;
+      allow create,update: if signed() && request.auth.uid == viewer && request.resource.data.keys().hasOnly(['subscriptionId']) && member(request.resource.data.subscriptionId) && target in sub(request.resource.data.subscriptionId).memberUids;
+      allow delete: if signed() && request.auth.uid == viewer;
+    }
+    match /subscriptions/{id} {
+      allow read: if signed() && (request.auth.uid in resource.data.memberUids || (verified() && email() in resource.data.get('pendingEmails',[])));
+      allow create: if verified() && validSub(request.resource.data) && request.resource.data.createdBy == request.auth.uid;
+      allow update: if signed() && validSub(request.resource.data) && request.resource.data.createdBy == resource.data.createdBy && request.resource.data.get('createdAt',0) == resource.data.get('createdAt',0) && (resource.data.createdBy == request.auth.uid || selfAdmission(resource.data,request.resource.data));
+      allow delete: if signed() && resource.data.createdBy == request.auth.uid;
+    }
+    match /billingCycles/{id} {
+      allow get: if signed() && (!exists(/databases/$(database)/documents/billingCycles/$(id)) || member(resource.data.subscriptionId));
+      allow list: if member(resource.data.subscriptionId);
+      allow create: if validCycle(request.resource.data) && owner(request.resource.data.subscriptionId);
+      allow update: if validCycle(request.resource.data) && request.resource.data.subscriptionId == resource.data.subscriptionId && (owner(resource.data.subscriptionId) || (member(resource.data.subscriptionId) && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['kongsipayRevision']) && request.resource.data.kongsipayRevision == resource.data.get('kongsipayRevision',0)+1));
+      allow delete: if owner(resource.data.subscriptionId);
+    }
+    match /payments/{id} {
+      allow get: if signed() && (!exists(/databases/$(database)/documents/payments/$(id)) || member(resource.data.subscriptionId));
+      allow list: if member(resource.data.subscriptionId);
+      allow create: if validPayment(request.resource.data) && (owner(request.resource.data.subscriptionId) || pendingPayment(request.resource.data)) && (request.resource.data.get('hasProof',false) == false || getAfter(/databases/$(database)/documents/paymentProofs/$(id)).data.paymentId == id);
+      allow update: if validPayment(request.resource.data) && owner(resource.data.subscriptionId) && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['cycleId','subscriptionId','memberUid','createdAt','hasProof']);
+      allow delete: if owner(resource.data.subscriptionId);
+    }
+    match /paymentProofs/{id} {
+      allow get: if signed() && (!exists(/databases/$(database)/documents/paymentProofs/$(id)) || (member(resource.data.subscriptionId) && (resource.data.memberUid == request.auth.uid || owner(resource.data.subscriptionId))));
+      allow create: if validProof(request.resource.data) && request.resource.data.keys().hasOnly(['dataUrl','name','paymentId','subscriptionId','cycleId','memberUid','submittedBy','createdAt']) && request.resource.data.paymentId == id && request.resource.data.submittedBy == request.auth.uid && member(request.resource.data.subscriptionId) && (request.resource.data.memberUid == request.auth.uid || owner(request.resource.data.subscriptionId)) && getAfter(/databases/$(database)/documents/payments/$(id)).data.memberUid == request.resource.data.memberUid && getAfter(/databases/$(database)/documents/payments/$(id)).data.subscriptionId == request.resource.data.subscriptionId && getAfter(/databases/$(database)/documents/payments/$(id)).data.cycleId == request.resource.data.cycleId && getAfter(/databases/$(database)/documents/payments/$(id)).data.hasProof == true;
+      allow delete: if owner(resource.data.subscriptionId);
+    }
+    match /providerProofs/{id} {
+      allow get: if signed() && (!exists(/databases/$(database)/documents/providerProofs/$(id)) || member(resource.data.subscriptionId));
+      allow create,update: if validProof(request.resource.data) && request.resource.data.keys().hasOnly(['dataUrl','name','subscriptionId','cycleId','submittedBy','createdAt']) && request.resource.data.cycleId == id && request.resource.data.submittedBy == request.auth.uid && owner(request.resource.data.subscriptionId) && getAfter(/databases/$(database)/documents/billingCycles/$(id)).data.subscriptionId == request.resource.data.subscriptionId && getAfter(/databases/$(database)/documents/billingCycles/$(id)).data.hasProviderProof == true;
+      allow delete: if owner(resource.data.subscriptionId);
+    }
+    match /games/{gameId} { allow read,write: if true; }
+    match /results/{resultId} { allow read,write: if true; }
+  }
+}
+
