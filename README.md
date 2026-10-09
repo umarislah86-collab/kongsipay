@@ -69,3 +69,8 @@ Browser WebMCP `read_payment_summary` memerlukan login dan membaca paparan subsc
 
 Public app: https://umarislah86-collab.github.io/kongsipay/ . Login Google masih diperlukan. Workflow pages.yml membina dengan base /kongsipay/ dan deploy setiap push main. Repo sumber public; tiada snapshot data pengguna atau credential admin disimpan dalam repo. Paparan mobile menukar jadual caj kepada kad, butang sentuhan 44px dan dialog mengikut tinggi skrin. Site lama kekal private.
 
+
+## Aliran ringkas
+
+Navigasi utama kini Subscription, Bayaran saya dan Profil. Login terus ke senarai subscription; pilih subscription untuk lihat bil terkini dan status semua ahli. Menu Bayaran saya sentiasa menapis caj, pilihan bayaran pukal, sejarah dan export kepada akaun sendiri. Pengesahan owner, jemputan, halalkan, pelan ansuran, susun semula, sejarah, pembetulan dan pemadaman kekal dalam subscription berkaitan. Butang tambahan diletakkan dalam Lagi / Sejarah & tetapan. Mobile menggunakan tiga tab di bawah.
+
