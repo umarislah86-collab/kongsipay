@@ -555,8 +555,8 @@
     "jv": "Patungan"
   },
   "Giliran": {
-    "en": "Rotation",
-    "ja": "順番",
+    "en": "Turn",
+    "ja": "担当",
     "jv": "Giliran"
   },
   "Hutang": {
@@ -665,9 +665,9 @@
     "jv": "wulan"
   },
   "Turutan giliran": {
-    "en": "Payer order",
-    "ja": "支払者の順番",
-    "jv": "Urutan giliran mbayar"
+    "en": "Turn order",
+    "ja": "担当順",
+    "jv": "Urutan giliran"
   },
   "bil berjaya dijana.": {
     "en": "bills generated.",
@@ -2378,5 +2378,205 @@
     "en": "These settings apply only to your account; records are not deleted.",
     "ja": "この設定はあなたのアカウントのみに適用され、記録は削除されません。",
     "jv": "Setelan iki mung kanggo akun sampeyan; cathetan ora dibusak."
+  },
+  "Pinjaman": {
+    "en": "Loans",
+    "ja": "貸し借り",
+    "jv": "Silihan"
+  },
+  "Tugasan": {
+    "en": "Tasks",
+    "ja": "タスク",
+    "jv": "Tugas"
+  },
+  "Papan keluarga": {
+    "en": "Family board",
+    "ja": "家族の掲示板",
+    "jv": "Papan kulawarga"
+  },
+  "pinjaman aktif": {
+    "en": "active loans",
+    "ja": "貸出中",
+    "jv": "silihan aktif"
+  },
+  "tugasan aktif": {
+    "en": "active tasks",
+    "ja": "有効なタスク",
+    "jv": "tugas aktif"
+  },
+  "nota aktif": {
+    "en": "active notes",
+    "ja": "有効なメモ",
+    "jv": "cathetan aktif"
+  },
+  "Tarikh pulang": {
+    "en": "Return date",
+    "ja": "返却日",
+    "jv": "Tanggal bali"
+  },
+  "Lewat": {
+    "en": "Overdue",
+    "ja": "期限超過",
+    "jv": "Telat"
+  },
+  "Sudah dipulangkan": {
+    "en": "Returned so far",
+    "ja": "返済・返却済み",
+    "jv": "Wis dibalekake"
+  },
+  "Rekod bayaran balik": {
+    "en": "Record repayment",
+    "ja": "返済を記録",
+    "jv": "Cathet bayaran bali"
+  },
+  "Sahkan barang dipulangkan": {
+    "en": "Confirm item returned",
+    "ja": "返却を確認",
+    "jv": "Sahake barang dibalekake"
+  },
+  "Reminder mesra:": {
+    "en": "Friendly reminder:",
+    "ja": "やさしいリマインダー：",
+    "jv": "Pangeling alus:"
+  },
+  "Soft reminder": {
+    "en": "Gentle reminder",
+    "ja": "リマインダー",
+    "jv": "Pangeling alus"
+  },
+  "Dah dipulangkan": {
+    "en": "Returned",
+    "ja": "返却済み",
+    "jv": "Wis dibalekake"
+  },
+  "Berulang": {
+    "en": "Recurring",
+    "ja": "繰り返し",
+    "jv": "Baleni"
+  },
+  "Sekali": {
+    "en": "One-off",
+    "ja": "一回のみ",
+    "jv": "Sepisan"
+  },
+  "Tandakan selesai": {
+    "en": "Mark complete",
+    "ja": "完了にする",
+    "jv": "Tandhani rampung"
+  },
+  "Direkod oleh": {
+    "en": "Recorded by",
+    "ja": "記録者",
+    "jv": "Dicathet dening"
+  },
+  "Tarikh penting": {
+    "en": "Important date",
+    "ja": "重要な日付",
+    "jv": "Tanggal penting"
+  },
+  "dah baca": {
+    "en": "have read",
+    "ja": "既読",
+    "jv": "wis maca"
+  },
+  "Dah baca": {
+    "en": "Mark as read",
+    "ja": "既読にする",
+    "jv": "Wis maca"
+  },
+  "Unpin": {
+    "en": "Unpin",
+    "ja": "固定を解除",
+    "jv": "Copot pin"
+  },
+  "Pin nota": {
+    "en": "Pin note",
+    "ja": "メモを固定",
+    "jv": "Pin cathetan"
+  },
+  "Edit nota": {
+    "en": "Edit note",
+    "ja": "メモを編集",
+    "jv": "Sunting cathetan"
+  },
+  "Jenis pinjaman": {
+    "en": "Loan type",
+    "ja": "貸し借りの種類",
+    "jv": "Jinis silihan"
+  },
+  "Barang": {
+    "en": "Item",
+    "ja": "物品",
+    "jv": "Barang"
+  },
+  "Duit": {
+    "en": "Money",
+    "ja": "お金",
+    "jv": "Dhuwit"
+  },
+  "Pemberi pinjaman": {
+    "en": "Lender",
+    "ja": "貸主",
+    "jv": "Sing nyilihake"
+  },
+  "Peminjam": {
+    "en": "Borrower",
+    "ja": "借主",
+    "jv": "Sing nyilih"
+  },
+  "Tarikh tugasan": {
+    "en": "Task date",
+    "ja": "タスクの日付",
+    "jv": "Tanggal tugas"
+  },
+  "Ulangan": {
+    "en": "Repeat",
+    "ja": "繰り返し",
+    "jv": "Baleni"
+  },
+  "Setiap hari": {
+    "en": "Every day",
+    "ja": "毎日",
+    "jv": "Saben dina"
+  },
+  "Setiap 7 hari": {
+    "en": "Every 7 days",
+    "ja": "7日ごと",
+    "jv": "Saben 7 dina"
+  },
+  "Setiap 30 hari": {
+    "en": "Every 30 days",
+    "ja": "30日ごと",
+    "jv": "Saben 30 dina"
+  },
+  "Pilih ahli dan susun giliran. Tugasan berulang bergerak ke ahli seterusnya selepas selesai.": {
+    "en": "Choose members and arrange the order. Recurring tasks move to the next member after completion.",
+    "ja": "メンバーと担当順を設定します。完了すると次のメンバーに進みます。",
+    "jv": "Pilih anggota lan atur giliran. Tugas baleni pindhah menyang anggota sabanjure sawise rampung."
+  },
+  "Isi nota / pengumuman": {
+    "en": "Note / announcement",
+    "ja": "メモ・お知らせ",
+    "jv": "Isi cathetan / pengumuman"
+  },
+  "Tarikh penting (pilihan)": {
+    "en": "Important date (optional)",
+    "ja": "重要な日付（任意）",
+    "jv": "Tanggal penting (opsional)"
+  },
+  "Sahkan pulangan": {
+    "en": "Confirm return",
+    "ja": "返却・返済を確認",
+    "jv": "Sahake bali"
+  },
+  "Pastikan barang telah dipulangkan.": {
+    "en": "Confirm that the item has been returned.",
+    "ja": "物品が返却されたことを確認してください。",
+    "jv": "Priksa manawa barang wis dibalekake."
+  },
+  "Sahkan tugasan ini sudah selesai?": {
+    "en": "Confirm this task is complete?",
+    "ja": "このタスクの完了を確認しますか？",
+    "jv": "Sahake tugas iki wis rampung?"
   }
 }
