@@ -2773,5 +2773,35 @@
     "en": "Only the fund creator can edit.",
     "ja": "積立の作成者のみ編集できます。",
     "jv": "Mung sing nggawe tabungan sing bisa nyunting."
+  },
+  "Padam tabung": {
+    "en": "Delete fund",
+    "ja": "積立を削除",
+    "jv": "Busak tabungan"
+  },
+  "Padam tabung ini secara kekal?": {
+    "en": "Permanently delete this fund?",
+    "ja": "この積立を完全に削除しますか？",
+    "jv": "Busak tabungan iki kanthi permanen?"
+  },
+  "Tindakan ini tak boleh dibatalkan.": {
+    "en": "This action cannot be undone.",
+    "ja": "この操作は取り消せません。",
+    "jv": "Tumindak iki ora bisa dibatalake."
+  },
+  "Tabung dipadam.": {
+    "en": "Fund deleted.",
+    "ja": "積立を削除しました。",
+    "jv": "Tabungan wis dibusak."
+  },
+  "Tabung yang ada transaksi tidak boleh dipadam.": {
+    "en": "A fund with transactions cannot be deleted.",
+    "ja": "取引のある積立は削除できません。",
+    "jv": "Tabungan sing wis ana transaksi ora bisa dibusak."
+  },
+  "Hanya pencipta tabung boleh padam.": {
+    "en": "Only the fund creator can delete it.",
+    "ja": "積立の作成者のみ削除できます。",
+    "jv": "Mung sing nggawe tabungan sing bisa mbusak."
   }
 }
