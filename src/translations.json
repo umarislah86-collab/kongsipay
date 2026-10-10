@@ -2943,5 +2943,40 @@
     "en": "Your outstanding balance",
     "ja": "あなたの未払い残高",
     "jv": "Sisan tagihanmu"
+  },
+  "Tools Utility": {
+    "en": "Utility tools",
+    "ja": "ユーティリティツール",
+    "jv": "Piranti Utility"
+  },
+  "Acara seterusnya": {
+    "en": "Next event",
+    "ja": "次の予定",
+    "jv": "Acara sabanjure"
+  },
+  "Tiada acara akan datang. Tambah acara untuk mula.": {
+    "en": "No upcoming events. Add an event to get started.",
+    "ja": "今後の予定はありません。予定を追加してください。",
+    "jv": "Durung ana acara sabanjure. Tambah acara kanggo miwiti."
+  },
+  "Lagi {days} hari": {
+    "en": "In {days} days",
+    "ja": "あと{days}日",
+    "jv": "{days} dina maneh"
+  },
+  "Esok": {
+    "en": "Tomorrow",
+    "ja": "明日",
+    "jv": "Sesuk"
+  },
+  "Hari ini": {
+    "en": "Today",
+    "ja": "今日",
+    "jv": "Dina iki"
+  },
+  "Pilih acara untuk lihat butiran pada kalendar.": {
+    "en": "Select an event to see its details on the calendar.",
+    "ja": "予定を選択するとカレンダーに詳細が表示されます。",
+    "jv": "Pilih acara kanggo ndeleng rincian ing tanggalan."
   }
 }

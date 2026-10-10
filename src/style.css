@@ -106,3 +106,18 @@ nav button.active .nav-icon,nav button:hover .nav-icon{opacity:1}
 .utility-calendar-event small{font-size:12px;color:var(--muted);margin-top:4px}
 .utility-calendar-event p{margin:7px 0 0;font-size:13px;white-space:pre-wrap;overflow-wrap:anywhere}
 @media(max-width:600px){.utility-calendar{padding:14px}.utility-calendar-weekdays,.utility-calendar-grid{gap:3px}.utility-calendar-day{min-height:48px;padding:7px 2px;border-radius:8px;font-size:13px}.utility-calendar-head h2{font-size:17px}.utility-calendar-event{gap:9px}.utility-calendar-event>.service-icon{width:36px;height:36px;border-radius:11px}}
+
+.utility-calendar-layout{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:18px;align-items:start;margin-bottom:24px}
+.utility-calendar-layout>.panel{margin:0;min-width:0}
+.utility-upcoming{margin-bottom:18px;padding:22px}
+.utility-next-event{display:flex;align-items:center;justify-content:space-between;gap:18px}
+.utility-next-copy{min-width:0;flex:1}.utility-next-copy>small{display:block;color:var(--muted);font-size:12px;margin-bottom:12px}
+.utility-upcoming-link{display:flex;align-items:center;gap:12px;width:100%;text-align:left;background:transparent;color:var(--text);padding:0;min-width:0}
+.utility-upcoming-link>.service-icon{width:42px;height:42px;flex-shrink:0;border-radius:13px}.utility-upcoming-link>.service-icon svg{width:21px;height:21px}
+.utility-upcoming-link>span{flex:1;min-width:0}.utility-upcoming-link strong{display:block;overflow-wrap:anywhere;font-size:14px}.utility-upcoming-link small{display:block;color:var(--muted);font-size:12px;margin-top:5px}
+.utility-countdown{padding:12px 17px;border-radius:14px;color:var(--green);background:var(--accent-bg);font-size:20px;font-weight:750;flex-shrink:0}
+.utility-upcoming-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:20px;padding-top:18px;border-top:1px solid var(--line)}
+.utility-upcoming-link em{font-size:12px;font-style:normal;color:var(--green);flex-shrink:0}.utility-upcoming-help{margin-bottom:0;font-size:12px}
+.utility-calendar-event{flex-wrap:wrap}.utility-calendar-event>div{flex-basis:50%}
+@media(max-width:900px){.utility-calendar-layout{grid-template-columns:1fr}.utility-upcoming-list{grid-template-columns:1fr}}
+@media(max-width:600px){.utility-next-event{align-items:flex-start;flex-direction:column;gap:14px}.utility-countdown{font-size:18px;padding:10px 14px}.utility-upcoming-link{gap:10px}.utility-calendar-event>button{font-size:12px}}
