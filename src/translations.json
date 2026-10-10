@@ -2803,5 +2803,45 @@
     "en": "Only the fund creator can delete it.",
     "ja": "積立の作成者のみ削除できます。",
     "jv": "Mung sing nggawe tabungan sing bisa mbusak."
+  },
+  "Padam terus": {
+    "en": "Delete permanently",
+    "ja": "完全に削除",
+    "jv": "Busak permanen"
+  },
+  "Padam rekod arkib ini secara kekal?": {
+    "en": "Permanently delete this archived record?",
+    "ja": "このアーカイブ済み記録を完全に削除しますか？",
+    "jv": "Busak permanen rekod arsip iki?"
+  },
+  "Semua transaksi tabung ini turut dipadam.": {
+    "en": "All transactions in this fund will also be deleted.",
+    "ja": "この積立のすべての取引も削除されます。",
+    "jv": "Kabeh transaksi tabungan iki uga bakal dibusak."
+  },
+  "Semua item dalam event ini turut dipadam.": {
+    "en": "All items in this event will also be deleted.",
+    "ja": "このイベント内のすべての項目も削除されます。",
+    "jv": "Kabeh barang ing acara iki uga bakal dibusak."
+  },
+  "Lampiran nota ini turut dipadam.": {
+    "en": "This note attachment will also be deleted.",
+    "ja": "このノートの添付ファイルも削除されます。",
+    "jv": "Lampiran cathetan iki uga bakal dibusak."
+  },
+  "Rekod dipadam.": {
+    "en": "Record deleted.",
+    "ja": "記録を削除しました。",
+    "jv": "Rekod wis dibusak."
+  },
+  "Rekod terlalu banyak untuk dipadam sekali gus.": {
+    "en": "There are too many related records to delete at once.",
+    "ja": "関連する記録が多すぎるため、一度に削除できません。",
+    "jv": "Rekod sing gegandhengan kakehan kanggo dibusak bebarengan."
+  },
+  "Selesaikan semua item event dahulu.": {
+    "en": "Complete all event items before deleting it.",
+    "ja": "削除する前にイベント内の項目をすべて完了してください。",
+    "jv": "Rampungna kabeh barang acara sadurunge mbusak."
   }
 }
