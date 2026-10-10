@@ -2753,5 +2753,25 @@
     "en": "Press Back again to leave.",
     "ja": "終了するにはもう一度戻るを押してください。",
     "jv": "Pencet Back maneh kanggo metu."
+  },
+  "Edit tabung": {
+    "en": "Edit fund",
+    "ja": "積立を編集",
+    "jv": "Sunting tabungan"
+  },
+  "Tabung dikemas kini.": {
+    "en": "Fund updated.",
+    "ja": "積立を更新しました。",
+    "jv": "Tabungan wis dianyari."
+  },
+  "Tabung tidak dijumpai.": {
+    "en": "Fund not found.",
+    "ja": "積立が見つかりません。",
+    "jv": "Tabungan ora ditemokake."
+  },
+  "Hanya pencipta tabung boleh edit.": {
+    "en": "Only the fund creator can edit.",
+    "ja": "積立の作成者のみ編集できます。",
+    "jv": "Mung sing nggawe tabungan sing bisa nyunting."
   }
 }
