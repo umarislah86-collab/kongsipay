@@ -114,7 +114,7 @@ nav button.active .nav-icon,nav button:hover .nav-icon{opacity:1}
 .utility-next-copy{min-width:0;flex:1}.utility-next-copy>small{display:block;color:var(--muted);font-size:12px;margin-bottom:12px}
 .utility-upcoming-link{display:flex;align-items:center;gap:12px;width:100%;text-align:left;background:transparent;color:var(--text);padding:0;min-width:0}
 .utility-upcoming-link>.service-icon{width:42px;height:42px;flex-shrink:0;border-radius:13px}.utility-upcoming-link>.service-icon svg{width:21px;height:21px}
-.utility-upcoming-link>span{flex:1;min-width:0}.utility-upcoming-link strong{display:block;overflow-wrap:anywhere;font-size:14px}.utility-upcoming-link small{display:block;color:var(--muted);font-size:12px;margin-top:5px}
+.utility-upcoming-link>span:not(.service-icon){flex:1;min-width:0}.utility-upcoming-link strong{display:block;overflow-wrap:anywhere;font-size:14px}.utility-upcoming-link small{display:block;color:var(--muted);font-size:12px;margin-top:5px}
 .utility-countdown{padding:12px 17px;border-radius:14px;color:var(--green);background:var(--accent-bg);font-size:20px;font-weight:750;flex-shrink:0}
 .utility-upcoming-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:20px;padding-top:18px;border-top:1px solid var(--line)}
 .utility-upcoming-link em{font-size:12px;font-style:normal;color:var(--green);flex-shrink:0}.utility-upcoming-help{margin-bottom:0;font-size:12px}
@@ -125,3 +125,15 @@ nav button.active .nav-icon,nav button:hover .nav-icon{opacity:1}
 .utility-event-type{display:inline-block;margin-top:7px;padding:4px 8px;border-radius:6px;font-size:11px;font-weight:600;line-height:1.3;border:1px solid var(--line)}
 .utility-event-type.collection{color:var(--green);background:var(--accent-bg)}
 .utility-event-type.provider{color:var(--text);background:var(--surface-2)}
+
+.utility-home-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}.utility-home-head h1{font-size:23px;margin:0}.utility-home-head>span{font-size:13px;color:var(--muted);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.utility-calendar-side{min-width:0}.utility-calendar-side .utility-calendar-agenda{margin-bottom:0}
+.utility-upcoming{padding:14px!important;margin-bottom:14px}.utility-upcoming-label{display:block;color:var(--muted);font-size:11px;margin-bottom:9px}
+.utility-upcoming .utility-upcoming-link>.service-icon{flex:0 0 32px;width:32px;height:32px;border-radius:10px}.utility-upcoming .utility-upcoming-link>.service-icon svg{width:17px;height:17px}
+.utility-upcoming .utility-upcoming-link strong{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.utility-upcoming .utility-upcoming-link small{font-size:11px;margin-top:3px}
+.utility-upcoming .utility-countdown{font-size:12px;padding:7px 9px;white-space:nowrap;border-radius:8px;color:var(--green)}
+.utility-upcoming .utility-event-type{font-size:10px;margin-top:4px;padding:2px 5px}
+.utility-upcoming-more{margin-top:12px;border-top:1px solid var(--line);padding-top:10px}.utility-upcoming-more>summary{font-size:12px;color:var(--muted);cursor:pointer}
+.utility-upcoming-more .utility-upcoming-list{grid-template-columns:1fr;margin-top:12px;padding-top:0;border:0;gap:14px}
+.utility-space-settings{margin:18px 0}.utility-space-settings>.secondary{margin:14px 0}.utility-space-settings .utility-toolbar{margin-bottom:10px}
+@media(max-width:600px){.utility-mode#content,.utility-mode #content{padding-top:16px}.utility-home-head{margin-bottom:8px}.utility-mode .section-title{margin-bottom:12px;gap:8px}.utility-mode .section-title .actions{gap:6px}.utility-mode .section-title button{padding:9px 11px;font-size:12px}.utility-calendar-head{margin-bottom:12px}.utility-calendar-layout{gap:12px}.utility-upcoming .utility-upcoming-link{gap:8px}}

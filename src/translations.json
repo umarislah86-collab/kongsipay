@@ -2978,5 +2978,15 @@
     "en": "Select an event to see its details on the calendar.",
     "ja": "予定を選択するとカレンダーに詳細が表示されます。",
     "jv": "Pilih acara kanggo ndeleng rincian ing tanggalan."
+  },
+  "Urus ruang": {
+    "en": "Manage space",
+    "ja": "スペース管理",
+    "jv": "Atur ruang"
+  },
+  "Acara lain": {
+    "en": "More events",
+    "ja": "その他の予定",
+    "jv": "Acara liyane"
   }
 }
