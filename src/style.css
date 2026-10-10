@@ -43,3 +43,5 @@ body{background:var(--page);color:var(--text)}aside,.auth-card,.panel,.subscript
 .utility-mode .workspace,.utility-mode .mobile-group{display:none}
 
 .utility-note{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.65}textarea{font:inherit;width:100%;border:1px solid var(--line);background:var(--surface,#252c2d);color:inherit;padding:12px;border-radius:8px;resize:vertical}#utility-loan-amount[hidden]{display:none}
+
+.utility-invite-list{max-height:260px;overflow:auto}.utility-invite-list small{display:block;color:var(--muted);margin-top:4px}.utility-invite-list [hidden]{display:none}

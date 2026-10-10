@@ -43,7 +43,7 @@ const notices=providerNotifications({get state(){return state},get user(){return
 const premium=premiumViews({get state(){return state},get repo(){return repo},get user(){return user},get profile(){return profile},esc,rm,dateLabel,modal,toast,today,chargeList,canPay});
 const simple=simpleViews({get state(){return state},get user(){return user},get profile(){return profile},get selected(){return selected},get filter(){return filter},esc,rm,heading,chargeTable,dateLabel,icon,premium,render});
 const dashboard=ownerDashboard({get state(){return state},get user(){return user},esc,rm,heading,chargeTable,today,reminders:o=>premium.reminders(o),exportPDF:(cs,title)=>premium.exportPDF(cs,title),proofButton:p=>premium.proofButton(p),render});
-const utility=utilityViews({get user(){return user},esc,rm,modal,toast,heading,dateLabel,today,render,visible:()=>view==='utility'&&!$('#app-shell').hidden});
+const utility=utilityViews({get state(){return state},get user(){return user},esc,rm,modal,toast,heading,dateLabel,today,render,visible:()=>view==='utility'&&!$('#app-shell').hidden});
 const addSub=()=>features.addSub(),invite=id=>features.invite(id),cycle=id=>features.cycle(id);
 $$('nav button').forEach(b=>b.onclick=()=>navigate(b.dataset.view));for(const id of ['#group',t("#group-mobile")])$(id).onchange=e=>{selected=e.target.value;render();};$('#close').onclick=$('#cancel').onclick=()=>{if(!busy)$('#modal').close();};$('#modal').addEventListener('cancel',e=>{if(busy)e.preventDefault();});$('#logout').onclick=$(t("#mobile-logout")).onclick=()=>signOut(auth).catch(e=>toast(friendly(e)));
 onAuthStateChanged(auth,boot,e=>authPage(friendly(e)));

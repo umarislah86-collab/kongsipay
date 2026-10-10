@@ -2723,5 +2723,30 @@
     "en": "Wait for the file to finish processing.",
     "ja": "ファイルの処理が終わるまでお待ちください。",
     "jv": "Enteni file rampung diproses."
+  },
+  "Cari ahli": {
+    "en": "Search members",
+    "ja": "メンバーを検索",
+    "jv": "Goleki anggota"
+  },
+  "Nama atau email": {
+    "en": "Name or email",
+    "ja": "名前またはメール",
+    "jv": "Jeneng utawa email"
+  },
+  "Tiada ahli sedia ada untuk dijemput.": {
+    "en": "No existing members available to invite.",
+    "ja": "招待できる既存メンバーはいません。",
+    "jv": "Ora ana anggota sing bisa diundang."
+  },
+  "Email orang baru (pilihan)": {
+    "en": "New person’s email (optional)",
+    "ja": "新しい人のメール（任意）",
+    "jv": "Email wong anyar (opsional)"
+  },
+  "Boleh pilih beberapa ahli. Ahli kemudian tekan Semak jemputan di Utility.": {
+    "en": "Select multiple members. They then tap Check invitations in Utility.",
+    "ja": "複数のメンバーを選べます。招待された人はUtilityで招待を確認します。",
+    "jv": "Bisa pilih akeh anggota. Banjur padha mencet Priksa undangan ing Utility."
   }
 }
