@@ -2683,5 +2683,45 @@
     "en": "One item per line. Optional quantity after |. Up to 50 items at once.",
     "ja": "1行に1商品。数量は | の後に任意で入力。最大50商品。",
     "jv": "Siji barang saben baris. Cacah opsional sawise |. Maksimal 50 barang."
+  },
+  "Gambar / fail (pilihan)": {
+    "en": "Image / file (optional)",
+    "ja": "画像・ファイル（任意）",
+    "jv": "Gambar / file (opsional)"
+  },
+  "Gambar PNG/JPEG/WebP sehingga 8MB akan dikecilkan. Fail lain maksimum 450KB.": {
+    "en": "PNG/JPEG/WebP images up to 8MB are compressed. Other files: maximum 450KB.",
+    "ja": "PNG/JPEG/WebP画像は8MBまで圧縮します。その他のファイルは最大450KBです。",
+    "jv": "Gambar PNG/JPEG/WebP nganti 8MB dikecilake. File liyane maksimal 450KB."
+  },
+  "Padam lampiran sedia ada": {
+    "en": "Remove existing attachment",
+    "ja": "添付を削除",
+    "jv": "Busak lampiran saiki"
+  },
+  "Lihat gambar / fail": {
+    "en": "View image / file",
+    "ja": "画像・ファイルを見る",
+    "jv": "Deleng gambar / file"
+  },
+  "Lampiran": {
+    "en": "Attachment",
+    "ja": "添付",
+    "jv": "Lampiran"
+  },
+  "Download fail": {
+    "en": "Download file",
+    "ja": "ファイルをダウンロード",
+    "jv": "Undhuh file"
+  },
+  "Lampiran tidak ditemui.": {
+    "en": "Attachment not found.",
+    "ja": "添付が見つかりません。",
+    "jv": "Lampiran ora ditemokake."
+  },
+  "Tunggu fail selesai diproses.": {
+    "en": "Wait for the file to finish processing.",
+    "ja": "ファイルの処理が終わるまでお待ちください。",
+    "jv": "Enteni file rampung diproses."
   }
 }
