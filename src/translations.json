@@ -2988,5 +2988,175 @@
     "en": "More events",
     "ja": "その他の予定",
     "jv": "Acara liyane"
+  },
+  "Untuk aku": {
+    "en": "For me",
+    "ja": "自分の予定",
+    "jv": "Kanggo aku"
+  },
+  "Semua dah selesai untuk kau.": {
+    "en": "You are all caught up.",
+    "ja": "すべて完了しています。",
+    "jv": "Kabeh wis rampung kanggo kowe."
+  },
+  "Lihat semua": {
+    "en": "View all",
+    "ja": "すべて表示",
+    "jv": "Deleng kabeh"
+  },
+  "Aktiviti ruang": {
+    "en": "Space activity",
+    "ja": "スペースのアクティビティ",
+    "jv": "Aktivitas ruang"
+  },
+  "Rekod ditambah": {
+    "en": "Record added",
+    "ja": "記録を追加",
+    "jv": "Cathetan ditambah"
+  },
+  "Rekod dikemas kini": {
+    "en": "Record updated",
+    "ja": "記録を更新",
+    "jv": "Cathetan dianyari"
+  },
+  "Rekod dipadam": {
+    "en": "Record deleted",
+    "ja": "記録を削除",
+    "jv": "Cathetan dibusak"
+  },
+  "Tugasan selesai": {
+    "en": "Task completed",
+    "ja": "タスク完了",
+    "jv": "Tugas rampung"
+  },
+  "Tindakan dibatalkan": {
+    "en": "Action undone",
+    "ja": "操作を取り消し",
+    "jv": "Tumindak dibatalake"
+  },
+  "Barang dah dibeli": {
+    "en": "Item purchased",
+    "ja": "購入済み",
+    "jv": "Barang wis dituku"
+  },
+  "Rekod diaktifkan semula": {
+    "en": "Record reopened",
+    "ja": "記録を再開",
+    "jv": "Cathetan diaktifake maneh"
+  },
+  "Rekod diarkib": {
+    "en": "Record archived",
+    "ja": "記録をアーカイブ",
+    "jv": "Cathetan diarsipake"
+  },
+  "Penggunaan tabung": {
+    "en": "Fund spending",
+    "ja": "貯金の支出",
+    "jv": "Panggunaan tabungan"
+  },
+  "Sumbangan tabung": {
+    "en": "Fund contribution",
+    "ja": "貯金への入金",
+    "jv": "Sumbangan tabungan"
+  },
+  "Tiada aktiviti lagi.": {
+    "en": "No activity yet.",
+    "ja": "アクティビティはまだありません。",
+    "jv": "Durung ana aktivitas."
+  },
+  "Setiap bulan": {
+    "en": "Monthly",
+    "ja": "毎月",
+    "jv": "Saben sasi"
+  },
+  "Setiap tahun": {
+    "en": "Yearly",
+    "ja": "毎年",
+    "jv": "Saben taun"
+  },
+  "Cari": {
+    "en": "Search",
+    "ja": "検索",
+    "jv": "Goleki"
+  },
+  "Cari seluruh app": {
+    "en": "Search the app",
+    "ja": "アプリ内を検索",
+    "jv": "Goleki ing kabeh app"
+  },
+  "Cari subscription, barang, tabung atau nota": {
+    "en": "Search subscriptions, items, funds or notes",
+    "ja": "サブスク、商品、貯金、メモを検索",
+    "jv": "Goleki langganan, barang, tabungan utawa cathetan"
+  },
+  "Taip untuk mencari.": {
+    "en": "Type to search.",
+    "ja": "入力して検索してください。",
+    "jv": "Ketik kanggo nggoleki."
+  },
+  "Tiada hasil carian.": {
+    "en": "No results found.",
+    "ja": "検索結果がありません。",
+    "jv": "Ora ana asil."
+  },
+  "Tindakan disimpan.": {
+    "en": "Action saved.",
+    "ja": "操作を保存しました。",
+    "jv": "Tumindak disimpen."
+  },
+  "Tindakan dibatalkan.": {
+    "en": "Action undone.",
+    "ja": "操作を取り消しました。",
+    "jv": "Tumindak dibatalake."
+  },
+  "Undo": {
+    "en": "Undo",
+    "ja": "元に戻す",
+    "jv": "Batalake"
+  },
+  "Backup ruang": {
+    "en": "Back up space",
+    "ja": "スペースをバックアップ",
+    "jv": "Gawe serep ruang"
+  },
+  "Backup merangkumi semua rekod aktif dan arkib dalam ruang ini.": {
+    "en": "Includes all active and archived records in this space.",
+    "ja": "このスペースの有効な記録とアーカイブを含みます。",
+    "jv": "Kalebu kabeh cathetan aktif lan arsip ing ruang iki."
+  },
+  "Backup lengkap": {
+    "en": "Full backup",
+    "ja": "完全バックアップ",
+    "jv": "Serep lengkap"
+  },
+  "Buka dalam Excel": {
+    "en": "Open in Excel",
+    "ja": "Excelで開く",
+    "jv": "Bukak ing Excel"
+  },
+  "Sertakan gambar dan fail (JSON)": {
+    "en": "Include images and files (JSON)",
+    "ja": "画像とファイルを含める（JSON）",
+    "jv": "Kalebu gambar lan berkas (JSON)"
+  },
+  "Backup untuk simpanan sendiri; restore automatik belum tersedia.": {
+    "en": "Keep this copy for your records; automatic restore is not available yet.",
+    "ja": "記録用に保存してください。自動復元はまだ利用できません。",
+    "jv": "Simpen salinan iki; mulihake otomatis durung kasedhiya."
+  },
+  "Backup dimuat turun.": {
+    "en": "Backup downloaded.",
+    "ja": "バックアップをダウンロードしました。",
+    "jv": "Serep wis diundhuh."
+  },
+  "Rekod telah berubah. Undo tidak tersedia.": {
+    "en": "This record has changed. Undo is no longer available.",
+    "ja": "記録が変更されたため、元に戻せません。",
+    "jv": "Cathetan wis owah. Ora bisa dibatalake maneh."
+  },
+  "Ulangan tidak sah.": {
+    "en": "Invalid recurrence.",
+    "ja": "繰り返し設定が無効です。",
+    "jv": "Ulangan ora sah."
   }
 }
