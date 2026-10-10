@@ -77,3 +77,10 @@ body{background:var(--page);color:var(--text)}aside,.auth-card,.panel,.subscript
 .utility-pin{display:inline-flex;vertical-align:middle;color:var(--muted);margin-right:6px}
 .utility-pin svg{width:17px;height:17px}
 @media(max-width:600px){.utility-mode .panel{padding:18px}.utility-grid .utility-tile{padding:20px}.utility-mode .utility-card{padding:0}.utility-card>summary{padding:18px;gap:10px}.utility-card-body{padding:18px}.utility-card>summary strong{font-size:14px}.utility-attention>strong{max-width:38%;font-size:12px}.utility-mode .panel.utility-attention{padding:18px}}
+
+/* Crisp navigation glyphs on desktop and the mobile tab bar. */
+nav button .nav-icon{width:21px;height:21px;flex-shrink:0;opacity:.85;transition:opacity .18s}
+nav button{border:1px solid transparent;transition:background .18s,color .18s,border-color .18s}
+nav button.active{border-color:color-mix(in srgb,var(--green) 14%,transparent)}
+nav button.active .nav-icon,nav button:hover .nav-icon{opacity:1}
+@media(max-width:700px){nav button .nav-icon{width:23px;height:23px}nav button{border-radius:12px}nav button.active{border-color:transparent}}
