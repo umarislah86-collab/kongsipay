@@ -2898,5 +2898,50 @@
     "en": "Event added.",
     "ja": "予定を追加しました。",
     "jv": "Acara wis ditambah."
+  },
+  "Kutipan ahli": {
+    "en": "Member collection",
+    "ja": "メンバーからの集金",
+    "jv": "Tagihan anggota"
+  },
+  "Bayaran provider": {
+    "en": "Provider payment",
+    "ja": "プロバイダーへの支払い",
+    "jv": "Pembayaran provider"
+  },
+  "Lihat bil": {
+    "en": "View bill",
+    "ja": "請求を表示",
+    "jv": "Deleng tagihan"
+  },
+  "Kemas kini bayaran": {
+    "en": "Update payment",
+    "ja": "支払いを更新",
+    "jv": "Nganyari pembayaran"
+  },
+  "Rekod bayaran provider": {
+    "en": "Record provider payment",
+    "ja": "プロバイダー支払いを記録",
+    "jv": "Cathet pembayaran provider"
+  },
+  "WhatsApp ahli": {
+    "en": "Notify members on WhatsApp",
+    "ja": "WhatsAppでメンバーに通知",
+    "jv": "Kabarna anggota liwat WhatsApp"
+  },
+  "Tarikh bayaran sebenar": {
+    "en": "Actual payment date",
+    "ja": "実際の支払日",
+    "jv": "Tanggal pembayaran nyata"
+  },
+  "Belum dibayar kepada provider": {
+    "en": "Provider not paid yet",
+    "ja": "プロバイダーへの支払いは未完了",
+    "jv": "Durung mbayar provider"
+  },
+  "Baki kau": {
+    "en": "Your outstanding balance",
+    "ja": "あなたの未払い残高",
+    "jv": "Sisan tagihanmu"
   }
 }
