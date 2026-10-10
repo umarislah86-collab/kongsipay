@@ -2748,5 +2748,10 @@
     "en": "Select multiple members. They then tap Check invitations in Utility.",
     "ja": "複数のメンバーを選べます。招待された人はUtilityで招待を確認します。",
     "jv": "Bisa pilih akeh anggota. Banjur padha mencet Priksa undangan ing Utility."
+  },
+  "Tekan Back sekali lagi untuk keluar.": {
+    "en": "Press Back again to leave.",
+    "ja": "終了するにはもう一度戻るを押してください。",
+    "jv": "Pencet Back maneh kanggo metu."
   }
 }
