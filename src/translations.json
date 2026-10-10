@@ -2578,5 +2578,110 @@
     "en": "Confirm this task is complete?",
     "ja": "このタスクの完了を確認しますか？",
     "jv": "Sahake tugas iki wis rampung?"
+  },
+  "Tambah event": {
+    "en": "Add event",
+    "ja": "イベントを追加",
+    "jv": "Tambah acara"
+  },
+  "Cipta event dahulu, kemudian tambah barang dan assign pembeli dalam event itu.": {
+    "en": "Create an event first, then add items and assign buyers within it.",
+    "ja": "先にイベントを作成し、その中で商品と購入担当者を追加します。",
+    "jv": "Gawe acara dhisik, banjur tambah barang lan pilih sing tuku."
+  },
+  "dah dibeli": {
+    "en": "purchased",
+    "ja": "購入済み",
+    "jv": "wis dituku"
+  },
+  "Shopping list lama": {
+    "en": "Previous shopping list",
+    "ja": "以前の買い物リスト",
+    "jv": "Dhaptar blanja lawas"
+  },
+  "item": {
+    "en": "items",
+    "ja": "点",
+    "jv": "barang"
+  },
+  "Belum ada event dalam pilihan ini.": {
+    "en": "No events in this selection.",
+    "ja": "該当するイベントはありません。",
+    "jv": "Durung ana acara ing pilihan iki."
+  },
+  "Semua event": {
+    "en": "All events",
+    "ja": "すべてのイベント",
+    "jv": "Kabeh acara"
+  },
+  "Tambah item / bulk": {
+    "en": "Add items / bulk",
+    "ja": "商品をまとめて追加",
+    "jv": "Tambah barang / akeh"
+  },
+  "Pembeli": {
+    "en": "Buyer",
+    "ja": "購入担当者",
+    "jv": "Sing tuku"
+  },
+  "Belum diassign": {
+    "en": "Not assigned",
+    "ja": "未割り当て",
+    "jv": "Durung dipilih"
+  },
+  "Assign pembeli": {
+    "en": "Assign buyer",
+    "ja": "購入担当者を指定",
+    "jv": "Pilih sing tuku"
+  },
+  "Tiada item dalam pilihan ini.": {
+    "en": "No items in this selection.",
+    "ja": "該当する商品はありません。",
+    "jv": "Ora ana barang ing pilihan iki."
+  },
+  "Selesai event": {
+    "en": "Complete event",
+    "ja": "イベントを完了",
+    "jv": "Rampungake acara"
+  },
+  "Nama event / program": {
+    "en": "Event / program name",
+    "ja": "イベント名",
+    "jv": "Jeneng acara / program"
+  },
+  "Event dicipta. Tambah item dan assign pembeli.": {
+    "en": "Event created. Add items and assign buyers.",
+    "ja": "イベントを作成しました。商品と購入担当者を追加してください。",
+    "jv": "Acara digawe. Tambah barang lan pilih sing tuku."
+  },
+  "Senarai item": {
+    "en": "Item list",
+    "ja": "商品リスト",
+    "jv": "Dhaptar barang"
+  },
+  "Semua item ini diassign kepada pembeli yang dipilih.": {
+    "en": "All these items are assigned to the selected buyer.",
+    "ja": "すべての商品を選択した購入担当者に割り当てます。",
+    "jv": "Kabeh barang iki diwenehake menyang sing tuku sing dipilih."
+  },
+  "Item ditambah dan pembeli diassign.": {
+    "en": "Items added and buyer assigned.",
+    "ja": "商品を追加し、購入担当者を指定しました。",
+    "jv": "Barang ditambah lan sing tuku dipilih."
+  },
+  "Event": {
+    "en": "Event",
+    "ja": "イベント",
+    "jv": "Acara"
+  },
+  "Contoh: Beras | 5kg": {
+    "en": "Example: Rice | 5kg",
+    "ja": "例：米 | 5kg",
+    "jv": "Tuladha: Beras | 5kg"
+  },
+  "Satu item setiap baris. Kuantiti pilihan selepas |. Maksimum 50 item sekali gus.": {
+    "en": "One item per line. Optional quantity after |. Up to 50 items at once.",
+    "ja": "1行に1商品。数量は | の後に任意で入力。最大50商品。",
+    "jv": "Siji barang saben baris. Cacah opsional sawise |. Maksimal 50 barang."
   }
 }
