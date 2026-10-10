@@ -1,5 +1,7 @@
 import {t,lhtml,locale} from './i18n.js';
 const paths={
+  target:'<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>',
+  pin:'<path d="m16 3 5 5-4 2-2 5-3-3-5 2-2-2 2-5-3-3 5-2Z"/><path d="m12 12-9 9"/>',
   layers:'<path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 12 9 5 9-5M3 16l9 5 9-5"/>',
   play:'<rect x="3" y="4" width="18" height="16" rx="5"/><path d="m10 8 6 4-6 4Z"/>',
   music:'<path d="M9 18V5l11-2v13M9 8l11-2"/><ellipse cx="6" cy="18" rx="3" ry="3"/><ellipse cx="17" cy="16" rx="3" ry="3"/>',
