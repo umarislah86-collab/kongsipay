@@ -1,5 +1,6 @@
 import {t,lhtml,locale} from './i18n.js';
 const paths={
+  calendar:'<rect x="3" y="5" width="18" height="16" rx="3"/><path d="M16 3v4M8 3v4M3 10h18m-13 4h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01"/>',
   target:'<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>',
   pin:'<path d="m16 3 5 5-4 2-2 5-3-3-5 2-2-2 2-5-3-3 5-2Z"/><path d="m12 12-9 9"/>',
   layers:'<path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 12 9 5 9-5M3 16l9 5 9-5"/>',

@@ -2843,5 +2843,60 @@
     "en": "Complete all event items before deleting it.",
     "ja": "削除する前にイベント内の項目をすべて完了してください。",
     "jv": "Rampungna kabeh barang acara sadurunge mbusak."
+  },
+  "Kalendar": {
+    "en": "Calendar",
+    "ja": "カレンダー",
+    "jv": "Kalender"
+  },
+  "acara akan datang": {
+    "en": "upcoming events",
+    "ja": "今後の予定",
+    "jv": "acara sing bakal teka"
+  },
+  "Tambah acara": {
+    "en": "Add event",
+    "ja": "予定を追加",
+    "jv": "Tambah acara"
+  },
+  "Nama acara": {
+    "en": "Event name",
+    "ja": "予定名",
+    "jv": "Jeneng acara"
+  },
+  "Tarikh acara": {
+    "en": "Event date",
+    "ja": "予定日",
+    "jv": "Tanggal acara"
+  },
+  "Bulan sebelumnya": {
+    "en": "Previous month",
+    "ja": "前の月",
+    "jv": "Sasi sadurunge"
+  },
+  "Bulan seterusnya": {
+    "en": "Next month",
+    "ja": "次の月",
+    "jv": "Sasi sabanjure"
+  },
+  "Acara": {
+    "en": "Event",
+    "ja": "予定",
+    "jv": "Acara"
+  },
+  "Diarkib": {
+    "en": "Archived",
+    "ja": "アーカイブ済み",
+    "jv": "Diarsip"
+  },
+  "Tiada acara pada tarikh ini.": {
+    "en": "No events on this date.",
+    "ja": "この日の予定はありません。",
+    "jv": "Ora ana acara ing tanggal iki."
+  },
+  "Acara ditambah.": {
+    "en": "Event added.",
+    "ja": "予定を追加しました。",
+    "jv": "Acara wis ditambah."
   }
 }
